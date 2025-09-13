@@ -16,12 +16,12 @@
 //		cout << Ls[i] << " ";
 //	}
 //	cout << endl;
-//	double Sum = 0;
+//	int Sum = 0;
 //	for (int i = 0; i < Len; i++) {
 //		Sum += Ls[i];
 //	}
 //	cout << "Сумма чисел массива:" << Sum << endl;
-//	double Min = 99999999999999999;
+//	int Min = 99999999999999999;
 //	for (int i = 0; i < Len; i++) {
 //		if (Ls[i] < Min) {
 //			Min = Ls[i];
