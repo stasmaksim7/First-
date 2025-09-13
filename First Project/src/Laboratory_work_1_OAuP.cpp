@@ -41,4 +41,5 @@ int main() {
 	for (int i = 0; i < Len;i++) {
 		cout << Ls[i] << " ";
 	}
+	return 0;
 }
