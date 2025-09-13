@@ -1,0 +1,515 @@
+23:52:04 **** Rebuild of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\First Project.o" "..\\src\\First Project.cpp" 
+g++ -o "First Project.exe" "src\\First Project.o" 
+Info: Nothing to build for First Project
+00:05:18 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\First Project.o" "..\\src\\First Project.cpp" 
+..\src\First Project.cpp: In function 'int main()':
+..\src\First Project.cpp:8:2: error: expected ';' before 'cout'
+  cout << "Это число " << a << endl;
+  ^~~~
+00:06:03 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\First Project.o" "..\\src\\First Project.cpp" 
+g++ -o "First Project.exe" "src\\First Project.o" 
+00:08:02 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\First Project.o" "..\\src\\First Project.cpp" 
+g++ -o "First Project.exe" "src\\First Project.o" 
+00:08:28 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\First Project.o" "..\\src\\First Project.cpp" 
+g++ -o "First Project.exe" "src\\First Project.o" 
+00:10:32 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\First Project.o" "..\\src\\First Project.cpp" 
+..\src\First Project.cpp: In function 'int main()':
+..\src\First Project.cpp:8:39: error: 'b' was not declared in this scope
+  cout << "Это числа " << a << b << endl;
+                                       ^
+00:10:50 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\First Project.o" "..\\src\\First Project.cpp" 
+g++ -o "First Project.exe" "src\\First Project.o" 
+00:12:37 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\First Project.o" "..\\src\\First Project.cpp" 
+g++ -o "First Project.exe" "src\\First Project.o" 
+00:25:01 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\First Project.o" "..\\src\\First Project.cpp" 
+..\src\First Project.cpp: In function 'int main()':
+..\src\First Project.cpp:11:23: warning: comparison of constant '100000' with boolean expression is always true [-Wbool-compare]
+  }else if (50001 <= a <= 100000){
+            ~~~~~~~~~~~^~~~~~~~~
+..\src\First Project.cpp:11:18: warning: comparisons like 'X<=Y<=Z' do not have their mathematical meaning [-Wparentheses]
+  }else if (50001 <= a <= 100000){
+            ~~~~~~^~~~
+g++ -o "First Project.exe" "src\\First Project.o" 
+Info: Nothing to build for First Project
+Info: Nothing to build for First Project
+Info: Nothing to build for First Project
+Info: Nothing to build for First Project
+00:29:50 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\First Project.o" "..\\src\\First Project.cpp" 
+..\src\First Project.cpp: In function 'int main()':
+..\src\First Project.cpp:11:23: warning: comparison of constant '100000' with boolean expression is always true [-Wbool-compare]
+  }else if (50001 <= a <= 100000){
+            ~~~~~~~~~~~^~~~~~~~~
+..\src\First Project.cpp:11:18: warning: comparisons like 'X<=Y<=Z' do not have their mathematical meaning [-Wparentheses]
+  }else if (50001 <= a <= 100000){
+            ~~~~~~^~~~
+g++ -o "First Project.exe" "src\\First Project.o" 
+19:26:54 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\First Project.o" "..\\src\\First Project.cpp" 
+g++ -o "First Project.exe" "src\\First Project.o" 
+20:38:24 **** Rebuild of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\First Project.o" "..\\src\\First Project.cpp" 
+g++ -o "First Project.exe" "src\\First Project.o" 
+20:38:45 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\First Project.o" "..\\src\\First Project.cpp" 
+g++ -o "First Project.exe" "src\\First Project.o" 
+20:39:14 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\First Project.o" "..\\src\\First Project.cpp" 
+g++ -o "First Project.exe" "src\\First Project.o" 
+20:39:46 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\First Project.o" "..\\src\\First Project.cpp" 
+g++ -o "First Project.exe" "src\\First Project.o" 
+20:39:59 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\First Project.o" "..\\src\\First Project.cpp" 
+g++ -o "First Project.exe" "src\\First Project.o" 
+20:44:41 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\First Project.o" "..\\src\\First Project.cpp" 
+..\src\First Project.cpp: In function 'int main()':
+..\src\First Project.cpp:22:9: warning: unused variable 'k' [-Wunused-variable]
+  double k = 10;
+         ^
+g++ -o "First Project.exe" "src\\First Project.o" 
+20:45:15 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\First Project.o" "..\\src\\First Project.cpp" 
+..\src\First Project.cpp: In function 'int main()':
+..\src\First Project.cpp:22:9: warning: unused variable 'k' [-Wunused-variable]
+  double k = 10;
+         ^
+g++ -o "First Project.exe" "src\\First Project.o" 
+20:49:22 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\First Project.o" "..\\src\\First Project.cpp" 
+..\src\First Project.cpp: In function 'int main()':
+..\src\First Project.cpp:22:23: warning: for increment expression has no effect [-Wunused-value]
+  for (int i = 1;i<=10;10){
+                       ^~
+g++ -o "First Project.exe" "src\\First Project.o" 
+21:51:35 **** Rebuild of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\First Project.o" "..\\src\\First Project.cpp" 
+..\src\First Project.cpp:26:2: error: expected unqualified-id before 'return'
+  return 0;
+  ^~~~~~
+..\src\First Project.cpp:27:1: error: expected declaration before '}' token
+ }
+ ^
+21:51:56 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\First Project.o" "..\\src\\First Project.cpp" 
+g++ -o "First Project.exe" "src\\First Project.o" 
+22:13:02 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\First Project.o" "..\\src\\First Project.cpp" 
+..\src\First Project.cpp: In function 'int main()':
+..\src\First Project.cpp:26:2: error: expected '(' before 'return'
+  return 0;
+  ^~~~~~
+..\src\First Project.cpp:26:2: error: expected primary-expression before 'return'
+..\src\First Project.cpp:27:1: error: expected primary-expression before '}' token
+ }
+ ^
+..\src\First Project.cpp:27:1: error: expected ';' before '}' token
+..\src\First Project.cpp:27:1: error: expected primary-expression before '}' token
+..\src\First Project.cpp:27:1: error: expected ')' before '}' token
+..\src\First Project.cpp:27:1: error: expected primary-expression before '}' token
+22:13:16 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\First Project.o" "..\\src\\First Project.cpp" 
+g++ -o "First Project.exe" "src\\First Project.o" 
+22:14:41 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\First Project.o" "..\\src\\First Project.cpp" 
+g++ -o "First Project.exe" "src\\First Project.o" 
+22:15:30 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\First Project.o" "..\\src\\First Project.cpp" 
+g++ -o "First Project.exe" "src\\First Project.o" 
+22:18:18 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\First Project.o" "..\\src\\First Project.cpp" 
+g++ -o "First Project.exe" "src\\First Project.o" 
+22:18:38 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\First Project.o" "..\\src\\First Project.cpp" 
+g++ -o "First Project.exe" "src\\First Project.o" 
+22:20:02 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\First Project.o" "..\\src\\First Project.cpp" 
+g++ -o "First Project.exe" "src\\First Project.o" 
+22:20:37 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\First Project.o" "..\\src\\First Project.cpp" 
+g++ -o "First Project.exe" "src\\First Project.o" 
+22:21:10 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\First Project.o" "..\\src\\First Project.cpp" 
+g++ -o "First Project.exe" "src\\First Project.o" 
+22:30:45 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\First Project.o" "..\\src\\First Project.cpp" 
+..\src\First Project.cpp: In function 'int main()':
+..\src\First Project.cpp:36:2: error: expected '}' at end of input
+  }
+  ^
+22:31:31 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\First Project.o" "..\\src\\First Project.cpp" 
+g++ -o "First Project.exe" "src\\First Project.o" 
+22:31:43 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\First Project.o" "..\\src\\First Project.cpp" 
+g++ -o "First Project.exe" "src\\First Project.o" 
+c:/users/ystas/progf/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file First Project.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+22:31:55 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -o "First Project.exe" "src\\First Project.o" 
+c:/users/ystas/progf/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file First Project.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+22:32:11 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -o "First Project.exe" "src\\First Project.o" 
+23:08:14 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\First Project.o" "..\\src\\First Project.cpp" 
+..\src\First Project.cpp: In function 'int main()':
+..\src\First Project.cpp:30:12: error: 'size' was not declared in this scope
+  int array[size];
+            ^~~~
+..\src\First Project.cpp:34:10: error: 'array' was not declared in this scope
+  cout << array;
+          ^~~~~
+23:08:53 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\First Project.o" "..\\src\\First Project.cpp" 
+g++ -o "First Project.exe" "src\\First Project.o" 
+23:09:08 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\First Project.o" "..\\src\\First Project.cpp" 
+g++ -o "First Project.exe" "src\\First Project.o" 
+23:10:11 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\First Project.o" "..\\src\\First Project.cpp" 
+g++ -o "First Project.exe" "src\\First Project.o" 
+23:10:29 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\First Project.o" "..\\src\\First Project.cpp" 
+g++ -o "First Project.exe" "src\\First Project.o" 
+Info: Nothing to build for First Project
+23:11:47 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\First Project.o" "..\\src\\First Project.cpp" 
+g++ -o "First Project.exe" "src\\First Project.o" 
+23:24:21 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\First Project.o" "..\\src\\First Project.cpp" 
+..\src\First Project.cpp: In function 'int main()':
+..\src\First Project.cpp:36:20: warning: left operand of comma operator has no effect [-Wunused-value]
+  for (int i = 0; i < size,i++){
+                  ~~^~~~~~
+..\src\First Project.cpp:36:30: error: expected ';' before ')' token
+  for (int i = 0; i < size,i++){
+                              ^
+23:25:00 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\First Project.o" "..\\src\\First Project.cpp" 
+g++ -o "First Project.exe" "src\\First Project.o" 
+23:31:24 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\First Project.o" "..\\src\\First Project.cpp" 
+..\src\First Project.cpp: In function 'int main()':
+..\src\First Project.cpp:40:2: error: expected ',' or ';' before 'for'
+  for (int i = 0; i < Len; i++) {
+  ^~~
+..\src\First Project.cpp:40:18: error: 'i' was not declared in this scope
+  for (int i = 0; i < Len; i++) {
+                  ^
+23:31:36 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\First Project.o" "..\\src\\First Project.cpp" 
+g++ -o "First Project.exe" "src\\First Project.o" 
+23:32:14 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\First Project.o" "..\\src\\First Project.cpp" 
+g++ -o "First Project.exe" "src\\First Project.o" 
+23:35:13 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\First Project.o" "..\\src\\First Project.cpp" 
+g++ -o "First Project.exe" "src\\First Project.o" 
+23:39:51 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\First Project.o" "..\\src\\First Project.cpp" 
+..\src\First Project.cpp: In function 'int main()':
+..\src\First Project.cpp:48:6: error: expected '(' before 'Ls'
+   if Ls[i] < Min {
+      ^~
+23:41:33 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\First Project.o" "..\\src\\First Project.cpp" 
+g++ -o "First Project.exe" "src\\First Project.o" 
+00:16:04 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\First Project.o" "..\\src\\First Project.cpp" 
+..\src\First Project.cpp: In function 'int sort(int*, int)':
+..\src\First Project.cpp:39:9: error: invalid conversion from 'int*' to 'int' [-fpermissive]
+  return Ls;
+         ^~
+..\src\First Project.cpp: In function 'int main()':
+..\src\First Project.cpp:68:11: warning: unused variable 'R' [-Wunused-variable]
+    double R = Ls[i];
+           ^
+00:16:32 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\First Project.o" "..\\src\\First Project.cpp" 
+..\src\First Project.cpp: In function 'int sort(int*, int)':
+..\src\First Project.cpp:39:12: error: expected primary-expression before ']' token
+  return Ls[];
+            ^
+..\src\First Project.cpp: In function 'int main()':
+..\src\First Project.cpp:68:11: warning: unused variable 'R' [-Wunused-variable]
+    double R = Ls[i];
+           ^
+00:19:10 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\First Project.o" "..\\src\\First Project.cpp" 
+..\src\First Project.cpp: In function 'int sort(int*, int)':
+..\src\First Project.cpp:39:12: error: expected primary-expression before ']' token
+  return Ls[];
+            ^
+..\src\First Project.cpp: In function 'int main()':
+..\src\First Project.cpp:68:11: warning: unused variable 'R' [-Wunused-variable]
+    double R = Ls[i];
+           ^
+00:19:24 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\First Project.o" "..\\src\\First Project.cpp" 
+..\src\First Project.cpp: In function 'int main()':
+..\src\First Project.cpp:55:11: warning: unused variable 'R' [-Wunused-variable]
+    double R = Ls[i];
+           ^
+g++ -o "First Project.exe" "src\\First Project.o" 
+00:21:01 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\First Project.o" "..\\src\\First Project.cpp" 
+..\src\First Project.cpp: In function 'int main()':
+..\src\First Project.cpp:55:8: warning: unused variable 'R' [-Wunused-variable]
+    int R = Ls[i];
+        ^
+g++ -o "First Project.exe" "src\\First Project.o" 
+c:/users/ystas/progf/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file First Project.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+00:21:22 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -o "First Project.exe" "src\\First Project.o" 
+c:/users/ystas/progf/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file First Project.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+00:22:01 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -o "First Project.exe" "src\\First Project.o" 
+c:/users/ystas/progf/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file First Project.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+00:22:32 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\First Project.o" "..\\src\\First Project.cpp" 
+..\src\First Project.cpp: In function 'int main()':
+..\src\First Project.cpp:55:11: warning: unused variable 'R' [-Wunused-variable]
+    double R = Ls[i];
+           ^
+g++ -o "First Project.exe" "src\\First Project.o" 
+c:/users/ystas/progf/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file First Project.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+00:22:49 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\First Project.o" "..\\src\\First Project.cpp" 
+..\src\First Project.cpp: In function 'int main()':
+..\src\First Project.cpp:55:11: warning: unused variable 'R' [-Wunused-variable]
+    double R = Ls[i];
+           ^
+g++ -o "First Project.exe" "src\\First Project.o" 
+c:/users/ystas/progf/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file First Project.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+00:22:54 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -o "First Project.exe" "src\\First Project.o" 
+c:/users/ystas/progf/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file First Project.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+00:24:55 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -o "First Project.exe" "src\\First Project.o" 
+00:25:13 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\First Project.o" "..\\src\\First Project.cpp" 
+..\src\First Project.cpp: In function 'int main()':
+..\src\First Project.cpp:55:8: warning: unused variable 'R' [-Wunused-variable]
+    int R = Ls[i];
+        ^
+g++ -o "First Project.exe" "src\\First Project.o" 
+00:25:55 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\First Project.o" "..\\src\\First Project.cpp" 
+..\src\First Project.cpp: In function 'int main()':
+..\src\First Project.cpp:55:8: warning: unused variable 'R' [-Wunused-variable]
+    int R = Ls[i];
+        ^
+g++ -o "First Project.exe" "src\\First Project.o" 
+c:/users/ystas/progf/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file First Project.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+00:26:10 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -o "First Project.exe" "src\\First Project.o" 
+00:27:59 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\First Project.o" "..\\src\\First Project.cpp" 
+..\src\First Project.cpp: In function 'int main()':
+..\src\First Project.cpp:55:8: warning: unused variable 'R' [-Wunused-variable]
+    int R = Ls[i];
+        ^
+g++ -o "First Project.exe" "src\\First Project.o" 
+00:30:01 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\First Project.o" "..\\src\\First Project.cpp" 
+..\src\First Project.cpp: In function 'int main()':
+..\src\First Project.cpp:55:8: warning: unused variable 'R' [-Wunused-variable]
+    int R = Ls[i];
+        ^
+g++ -o "First Project.exe" "src\\First Project.o" 
+08:22:36 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\First Project.o" "..\\src\\First Project.cpp" 
+..\src\First Project.cpp: In function 'int main()':
+..\src\First Project.cpp:55:8: warning: unused variable 'R' [-Wunused-variable]
+    int R = Ls[i];
+        ^
+g++ -o "First Project.exe" "src\\First Project.o" 
+08:25:28 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\First Project.o" "..\\src\\First Project.cpp" 
+g++ -o "First Project.exe" "src\\First Project.o" 
+08:26:09 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\First Project.o" "..\\src\\First Project.cpp" 
+g++ -o "First Project.exe" "src\\First Project.o" 
+08:27:02 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\First Project.o" "..\\src\\First Project.cpp" 
+g++ -o "First Project.exe" "src\\First Project.o" 
+c:/users/ystas/progf/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file First Project.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+08:27:29 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -o "First Project.exe" "src\\First Project.o" 
+08:39:01 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\First Project.o" "..\\src\\First Project.cpp" 
+..\src\First Project.cpp: In function 'int main()':
+..\src\First Project.cpp:29:5: error: redefinition of 'int main()'
+ int main() {
+     ^~~~
+..\src\First Project.cpp:21:5: note: 'int main()' previously defined here
+ int main() {
+     ^~~~
+08:39:24 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\First Project.o" "..\\src\\First Project.cpp" 
+g++ -o "First Project.exe" "src\\First Project.o" 
+09:32:42 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\First Project.o" "..\\src\\First Project.cpp" 
+g++ -o "First Project.exe" "src\\First Project.o" 
+09:34:39 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\First Project.o" "..\\src\\First Project.cpp" 
+g++ -o "First Project.exe" "src\\First Project.o" 
+09:35:30 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\First Project.o" "..\\src\\First Project.cpp" 
+g++ -o "First Project.exe" "src\\First Project.o" 
+09:37:41 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\First Project.o" "..\\src\\First Project.cpp" 
+g++ -o "First Project.exe" "src\\First Project.o" 
+09:37:54 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\First Project.o" "..\\src\\First Project.cpp" 
+g++ -o "First Project.exe" "src\\First Project.o" 
+09:45:08 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\First Project.o" "..\\src\\First Project.cpp" 
+..\src\First Project.cpp: In function 'int main()':
+..\src\First Project.cpp:19:2: error: expected ';' before 'if'
+  if (a % 2 == 0){
+  ^~
+..\src\First Project.cpp:22:2: error: 'else' without a previous 'if'
+  else {
+  ^~~~
+09:45:22 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\First Project.o" "..\\src\\First Project.cpp" 
+..\src\First Project.cpp: In function 'int main()':
+..\src\First Project.cpp:19:2: error: expected ';' before 'if'
+  if (a % 2){
+  ^~
+..\src\First Project.cpp:22:2: error: 'else' without a previous 'if'
+  else {
+  ^~~~
+09:45:50 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\First Project.o" "..\\src\\First Project.cpp" 
+g++ -o "First Project.exe" "src\\First Project.o" 
+c:/users/ystas/progf/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file First Project.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+09:46:03 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -o "First Project.exe" "src\\First Project.o" 
+09:55:03 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\First Project.o" "..\\src\\First Project.cpp" 
+g++ -o "First Project.exe" "src\\First Project.o" 
+09:55:51 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\First Project.o" "..\\src\\First Project.cpp" 
+g++ -o "First Project.exe" "src\\First Project.o" 
+09:56:14 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\First Project.o" "..\\src\\First Project.cpp" 
+g++ -o "First Project.exe" "src\\First Project.o" 
+10:15:47 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\First Project.o" "..\\src\\First Project.cpp" 
+g++ -o "First Project.exe" "src\\First Project.o" 
+Info: Nothing to build for First Project
+10:17:12 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\First Project.o" "..\\src\\First Project.cpp" 
+g++ -o "First Project.exe" "src\\First Project.o" 
+10:17:26 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\First Project.o" "..\\src\\First Project.cpp" 
+g++ -o "First Project.exe" "src\\First Project.o" 

@@ -1,0 +1,71 @@
+#include <iostream>
+using namespace std;
+/*
+int main() {
+	double a;
+	cout << "Введите ваш доход:";
+	cin >> a;
+	if (a <= 50000){
+		float b = a * 0.13;
+		cout << "Ваш доход на налог: " << b << endl;
+	}else if (a <= 100000){
+		float b = a * 0.2;
+		cout << "Ваш доход на налог: " << b << endl;
+	}else{
+		float b = a * 0.25;
+		cout << "Ваш доход на налог: " << b << endl;
+	}
+	return 0;
+}
+*/
+//int main() {
+//	double k = 10;
+//	for (int i = 1; i <= 10;i++){
+//		cout << i << "---" << k << endl;
+//		k += 10;
+//	}
+//	return 0;
+//}
+int main() {
+	const int Len = 10;
+	int Ls[Len];
+	for (int i = 0; i < Len; i++) {
+		cout << "Введите число " << i+1 << ": ";
+		cin >> Ls[i];
+	}
+	cout << "Массив:";
+	for (int i = 0; i < Len;i++){
+		cout << Ls[i] << " ";
+	}
+	cout << endl;
+	double Sum = 0;
+	for (int i = 0; i < Len; i++) {
+		Sum += Ls[i];
+	}
+	cout << "Сумма чисел массива:" << Sum << endl;
+	double Min = 99999999999999999;
+	for (int i = 0; i < Len; i++) {
+		if (Ls[i] < Min) {
+			Min = Ls[i];
+		}
+	}
+	cout << "Минимальное число массива:" << Min << endl;
+	for (int i = 0; i < (Len-1); i++) {
+		if (Ls[i] > Ls[i+1]) {
+			double R = Ls[i];
+			Ls[i] = Ls[i+1];
+			Ls[i+1] = Ls[i];
+
+		}
+	}
+	for (int i = 0; i < Len; i++) {
+		for (int j = 0; j < Len-1;i++){
+			if (Ls[j] > Ls[j+1]){
+				int R = Ls[j];
+				Ls[j] = Ls[j+1];
+				Ls[j+1] = R;
+			}
+		}
+	}
+	cout << "Сортированный массив:"<< Ls;
+}

@@ -1,0 +1,10 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	double a, b;
+	cout << "Введите число:";
+	cin >> a >> b;
+	cout << "Это числа " << a << b << endl;
+	return 0;
+}
