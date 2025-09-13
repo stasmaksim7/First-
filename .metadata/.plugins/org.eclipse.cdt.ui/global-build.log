@@ -513,3 +513,139 @@ g++ -o "First Project.exe" "src\\First Project.o"
 Info: Internal Builder is used for build
 g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\First Project.o" "..\\src\\First Project.cpp" 
 g++ -o "First Project.exe" "src\\First Project.o" 
+11:21:21 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Laboratory work 1 - Infa.o" "..\\src\\Laboratory work 1 - Infa.cpp" 
+g++ -o "First Project.exe" "src\\Laboratory work 1 - Infa.o" 
+c:/users/ystas/progf/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a(main.o):(.text.startup+0xa0): undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
+11:27:09 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -o "First Project.exe" "src\\Laboratory work 1 - Infa.o" 
+c:/users/ystas/progf/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a(main.o):(.text.startup+0xa0): undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
+11:34:12 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -o "First Project.exe" "src\\Laboratory work 1 - Infa.o" 
+c:/users/ystas/progf/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a(main.o):(.text.startup+0xa0): undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
+12:38:12 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Laboratory_work_1_OAuP.o" "..\\src\\Laboratory_work_1_OAuP.cpp" 
+..\src\Laboratory_work_1_OAuP.cpp:6:2: error: expected unqualified-id before 'return'
+  return 0;
+  ^~~~~~
+..\src\Laboratory_work_1_OAuP.cpp:7:1: error: expected declaration before '}' token
+ }
+ ^
+12:39:01 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Laboratory_work_1_OAuP.o" "..\\src\\Laboratory_work_1_OAuP.cpp" 
+..\src\Laboratory_work_1_OAuP.cpp:6:2: error: expected unqualified-id before 'return'
+  return 0;
+  ^~~~~~
+..\src\Laboratory_work_1_OAuP.cpp:7:1: error: expected declaration before '}' token
+ }
+ ^
+12:39:28 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Laboratory_work_1_OAuP.o" "..\\src\\Laboratory_work_1_OAuP.cpp" 
+..\src\Laboratory_work_1_OAuP.cpp:6:2: error: expected unqualified-id before 'return'
+  return 0;
+  ^~~~~~
+..\src\Laboratory_work_1_OAuP.cpp:7:1: error: expected declaration before '}' token
+ }
+ ^
+12:40:37 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Laboratory_work_1_OAuP.o" "..\\src\\Laboratory_work_1_OAuP.cpp" 
+..\src\Laboratory_work_1_OAuP.cpp:6:2: error: expected unqualified-id before 'return'
+  return 0;
+  ^~~~~~
+..\src\Laboratory_work_1_OAuP.cpp:7:1: error: expected declaration before '}' token
+ }
+ ^
+12:43:54 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Laboratory_work_1_Infa.o" "..\\src\\Laboratory_work_1_Infa.cpp" 
+g++ -o "First Project.exe" "src\\Laboratory_work_1_Infa.o" 
+c:/users/ystas/progf/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a(main.o):(.text.startup+0xa0): undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
+12:45:05 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -o "First Project.exe" "src\\Laboratory_work_1_Infa.o" 
+c:/users/ystas/progf/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a(main.o):(.text.startup+0xa0): undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
+12:46:39 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -o "First Project.exe" "src\\Laboratory_work_1_Infa.o" 
+c:/users/ystas/progf/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a(main.o):(.text.startup+0xa0): undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
+12:54:08 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Laboratory_work_1_Infa.o" "..\\src\\Laboratory_work_1_Infa.cpp" 
+g++ -o "First Project.exe" "src\\Laboratory_work_1_Infa.o" 
+Info: Nothing to build for First Project
+12:56:06 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Test.o" "..\\src\\Test.cpp" 
+g++ -o "First Project.exe" "src\\Laboratory_work_1_Infa.o" "src\\Test.o" 
+c:/users/ystas/progf/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file First Project.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+12:57:44 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -o "First Project.exe" "src\\Laboratory_work_1_Infa.o" "src\\Test.o" 
+c:/users/ystas/progf/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file First Project.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+13:01:42 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Laboratory_work_1_Infa.o" "..\\src\\Laboratory_work_1_Infa.cpp" 
+g++ -o "First Project.exe" "src\\Laboratory_work_1_Infa.o" "src\\Test.o" 
+c:/users/ystas/progf/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file First Project.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+13:02:46 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Laboratory_work_1_Infa.o" "..\\src\\Laboratory_work_1_Infa.cpp" 
+g++ -o "First Project.exe" "src\\Laboratory_work_1_Infa.o" 
+c:/users/ystas/progf/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file First Project.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+13:03:30 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -o "First Project.exe" "src\\Laboratory_work_1_Infa.o" 
+c:/users/ystas/progf/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file First Project.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+13:03:45 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -o "First Project.exe" "src\\Laboratory_work_1_Infa.o" 
+c:/users/ystas/progf/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file First Project.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+13:04:13 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -o "First Project.exe" "src\\Laboratory_work_1_Infa.o" 
+c:/users/ystas/progf/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file First Project.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+13:05:14 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Laboratory_work_1_Infa.o" "..\\src\\Laboratory_work_1_Infa.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Test.o" "..\\src\\Test.cpp" 
+g++ -o "First Project.exe" "src\\Laboratory_work_1_Infa.o" "src\\Test.o" 
+c:/users/ystas/progf/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file First Project.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+13:05:33 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Test.o" "..\\src\\Test.cpp" 
+g++ -o "First Project.exe" "src\\Laboratory_work_1_Infa.o" "src\\Test.o" 
+c:/users/ystas/progf/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file First Project.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+13:08:54 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Test.o" "..\\src\\Test.cpp" 
+g++ -o "First Project.exe" "src\\Laboratory_work_1_Infa.o" "src\\Test.o" 
+c:/users/ystas/progf/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file First Project.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+13:10:17 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Laboratory_work_1_OAuP.o" "..\\src\\Laboratory_work_1_OAuP.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Laboratory_work_1_Infa.o" "..\\src\\Laboratory_work_1_Infa.cpp" 
+g++ -o "First Project.exe" "src\\Laboratory_work_1_Infa.o" "src\\Laboratory_work_1_OAuP.o" 
+Info: Nothing to build for First Project
