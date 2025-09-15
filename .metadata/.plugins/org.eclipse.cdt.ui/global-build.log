@@ -661,3 +661,227 @@ g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Laboratory_work_1_OAuP.o" "..\\
 g++ -o "First Project.exe" "src\\Laboratory_work_1_Infa.o" "src\\Laboratory_work_1_OAuP.o" 
 c:/users/ystas/progf/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file First Project.exe: Permission denied
 collect2.exe: error: ld returned 1 exit status
+12:45:53 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Laboratory_work_1_Infa.o" "..\\src\\Laboratory_work_1_Infa.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Laboratory_work_1_OAuP.o" "..\\src\\Laboratory_work_1_OAuP.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Tasks_1_OAuP.o" "..\\src\\Tasks_1_OAuP.cpp" 
+..\src\Tasks_1_OAuP.cpp: In function 'int main()':
+..\src\Tasks_1_OAuP.cpp:9:22: error: invalid operands of types 'float' and 'int' to binary 'operator%'
+  cout << a / 10 << a % 10;
+                    ~~^~~~
+12:46:35 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Tasks_1_OAuP.o" "..\\src\\Tasks_1_OAuP.cpp" 
+..\src\Tasks_1_OAuP.cpp: In function 'int main()':
+..\src\Tasks_1_OAuP.cpp:9:22: error: invalid operands of types 'float' and 'int' to binary 'operator%'
+  cout << a / 10 << a % 10;
+                    ~~^~~~
+12:46:41 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Tasks_1_OAuP.o" "..\\src\\Tasks_1_OAuP.cpp" 
+..\src\Tasks_1_OAuP.cpp: In function 'int main()':
+..\src\Tasks_1_OAuP.cpp:9:22: error: invalid operands of types 'float' and 'int' to binary 'operator%'
+  cout << a / 10 << a % 10;
+                    ~~^~~~
+12:48:14 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Tasks_1_OAuP.o" "..\\src\\Tasks_1_OAuP.cpp" 
+g++ -o "First Project.exe" "src\\Laboratory_work_1_Infa.o" "src\\Laboratory_work_1_OAuP.o" "src\\Tasks_1_OAuP.o" 
+12:48:46 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Tasks_1_OAuP.o" "..\\src\\Tasks_1_OAuP.cpp" 
+g++ -o "First Project.exe" "src\\Laboratory_work_1_Infa.o" "src\\Laboratory_work_1_OAuP.o" "src\\Tasks_1_OAuP.o" 
+13:01:13 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Tasks_1_OAuP.o" "..\\src\\Tasks_1_OAuP.cpp" 
+g++ -o "First Project.exe" "src\\Laboratory_work_1_Infa.o" "src\\Laboratory_work_1_OAuP.o" "src\\Tasks_1_OAuP.o" 
+13:03:07 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Tasks_1_OAuP.o" "..\\src\\Tasks_1_OAuP.cpp" 
+g++ -o "First Project.exe" "src\\Laboratory_work_1_Infa.o" "src\\Laboratory_work_1_OAuP.o" "src\\Tasks_1_OAuP.o" 
+13:09:45 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Tasks_1_OAuP.o" "..\\src\\Tasks_1_OAuP.cpp" 
+g++ -o "First Project.exe" "src\\Laboratory_work_1_Infa.o" "src\\Laboratory_work_1_OAuP.o" "src\\Tasks_1_OAuP.o" 
+13:10:16 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Tasks_1_OAuP.o" "..\\src\\Tasks_1_OAuP.cpp" 
+g++ -o "First Project.exe" "src\\Laboratory_work_1_Infa.o" "src\\Laboratory_work_1_OAuP.o" "src\\Tasks_1_OAuP.o" 
+c:/users/ystas/progf/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file First Project.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+13:12:20 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -o "First Project.exe" "src\\Laboratory_work_1_Infa.o" "src\\Laboratory_work_1_OAuP.o" "src\\Tasks_1_OAuP.o" 
+c:/users/ystas/progf/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file First Project.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+13:14:22 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Tasks_1_OAuP.o" "..\\src\\Tasks_1_OAuP.cpp" 
+g++ -o "First Project.exe" "src\\Laboratory_work_1_Infa.o" "src\\Laboratory_work_1_OAuP.o" "src\\Tasks_1_OAuP.o" 
+c:/users/ystas/progf/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file First Project.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+13:14:37 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -o "First Project.exe" "src\\Laboratory_work_1_Infa.o" "src\\Laboratory_work_1_OAuP.o" "src\\Tasks_1_OAuP.o" 
+c:/users/ystas/progf/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file First Project.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+13:14:45 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -o "First Project.exe" "src\\Laboratory_work_1_Infa.o" "src\\Laboratory_work_1_OAuP.o" "src\\Tasks_1_OAuP.o" 
+c:/users/ystas/progf/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file First Project.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+13:15:01 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -o "First Project.exe" "src\\Laboratory_work_1_Infa.o" "src\\Laboratory_work_1_OAuP.o" "src\\Tasks_1_OAuP.o" 
+c:/users/ystas/progf/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file First Project.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+13:16:43 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -o "First Project.exe" "src\\Laboratory_work_1_Infa.o" "src\\Laboratory_work_1_OAuP.o" "src\\Tasks_1_OAuP.o" 
+c:/users/ystas/progf/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file First Project.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+13:16:53 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Tasks_1_OAuP.o" "..\\src\\Tasks_1_OAuP.cpp" 
+g++ -o "First Project.exe" "src\\Laboratory_work_1_Infa.o" "src\\Laboratory_work_1_OAuP.o" "src\\Tasks_1_OAuP.o" 
+c:/users/ystas/progf/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file First Project.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+13:48:36 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -o "First Project.exe" "src\\Laboratory_work_1_Infa.o" "src\\Laboratory_work_1_OAuP.o" "src\\Tasks_1_OAuP.o" 
+c:/users/ystas/progf/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file First Project.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+13:48:56 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -o "First Project.exe" "src\\Laboratory_work_1_Infa.o" "src\\Laboratory_work_1_OAuP.o" "src\\Tasks_1_OAuP.o" 
+c:/users/ystas/progf/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file First Project.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+13:51:02 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -o "First Project.exe" "src\\Laboratory_work_1_Infa.o" "src\\Laboratory_work_1_OAuP.o" "src\\Tasks_1_OAuP.o" 
+c:/users/ystas/progf/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file First Project.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+13:51:25 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -o "First Project.exe" "src\\Laboratory_work_1_Infa.o" "src\\Laboratory_work_1_OAuP.o" "src\\Tasks_1_OAuP.o" 
+c:/users/ystas/progf/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file First Project.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+13:52:35 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -o "First Project.exe" "src\\Laboratory_work_1_Infa.o" "src\\Laboratory_work_1_OAuP.o" "src\\Tasks_1_OAuP.o" 
+c:/users/ystas/progf/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file First Project.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+13:52:43 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -o "First Project.exe" "src\\Laboratory_work_1_Infa.o" "src\\Laboratory_work_1_OAuP.o" "src\\Tasks_1_OAuP.o" 
+c:/users/ystas/progf/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file First Project.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+13:52:54 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -o "First Project.exe" "src\\Laboratory_work_1_Infa.o" "src\\Laboratory_work_1_OAuP.o" "src\\Tasks_1_OAuP.o" 
+c:/users/ystas/progf/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file First Project.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+23:18:47 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -o "First Project.exe" "src\\Laboratory_work_1_Infa.o" "src\\Laboratory_work_1_OAuP.o" "src\\Tasks_1_OAuP.o" 
+23:27:21 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Tasks_1_OAuP.o" "..\\src\\Tasks_1_OAuP.cpp" 
+g++ -o "First Project.exe" "src\\Laboratory_work_1_Infa.o" "src\\Laboratory_work_1_OAuP.o" "src\\Tasks_1_OAuP.o" 
+c:/users/ystas/progf/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a(main.o):(.text.startup+0xa0): undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
+23:28:22 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Tasks_1_OAuP.o" "..\\src\\Tasks_1_OAuP.cpp" 
+..\src\Tasks_1_OAuP.cpp: In function 'int main()':
+..\src\Tasks_1_OAuP.cpp:26:1: error: expected ';' before '}' token
+ }
+ ^
+23:28:35 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Tasks_1_OAuP.o" "..\\src\\Tasks_1_OAuP.cpp" 
+..\src\Tasks_1_OAuP.cpp: In function 'int main()':
+..\src\Tasks_1_OAuP.cpp:26:1: error: expected ';' before '}' token
+ }
+ ^
+23:28:56 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Tasks_1_OAuP.o" "..\\src\\Tasks_1_OAuP.cpp" 
+g++ -o "First Project.exe" "src\\Laboratory_work_1_Infa.o" "src\\Laboratory_work_1_OAuP.o" "src\\Tasks_1_OAuP.o" 
+Info: Nothing to build for First Project
+23:30:07 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Tasks_1_OAuP.o" "..\\src\\Tasks_1_OAuP.cpp" 
+g++ -o "First Project.exe" "src\\Laboratory_work_1_Infa.o" "src\\Laboratory_work_1_OAuP.o" "src\\Tasks_1_OAuP.o" 
+23:30:54 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Tasks_1_OAuP.o" "..\\src\\Tasks_1_OAuP.cpp" 
+..\src\Tasks_1_OAuP.cpp: In function 'int main()':
+..\src\Tasks_1_OAuP.cpp:26:1: error: expected ';' before '}' token
+ }
+ ^
+23:31:05 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Tasks_1_OAuP.o" "..\\src\\Tasks_1_OAuP.cpp" 
+..\src\Tasks_1_OAuP.cpp: In function 'int main()':
+..\src\Tasks_1_OAuP.cpp:26:1: error: expected ';' before '}' token
+ }
+ ^
+23:31:12 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Tasks_1_OAuP.o" "..\\src\\Tasks_1_OAuP.cpp" 
+..\src\Tasks_1_OAuP.cpp: In function 'int main()':
+..\src\Tasks_1_OAuP.cpp:26:1: error: expected ';' before '}' token
+ }
+ ^
+23:31:22 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Tasks_1_OAuP.o" "..\\src\\Tasks_1_OAuP.cpp" 
+g++ -o "First Project.exe" "src\\Laboratory_work_1_Infa.o" "src\\Laboratory_work_1_OAuP.o" "src\\Tasks_1_OAuP.o" 
+Info: Nothing to build for First Project
+23:42:24 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Tasks_1_OAuP.o" "..\\src\\Tasks_1_OAuP.cpp" 
+g++ -o "First Project.exe" "src\\Laboratory_work_1_Infa.o" "src\\Laboratory_work_1_OAuP.o" "src\\Tasks_1_OAuP.o" 
+23:43:40 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Tasks_1_OAuP.o" "..\\src\\Tasks_1_OAuP.cpp" 
+g++ -o "First Project.exe" "src\\Laboratory_work_1_Infa.o" "src\\Laboratory_work_1_OAuP.o" "src\\Tasks_1_OAuP.o" 
+23:44:13 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Tasks_1_OAuP.o" "..\\src\\Tasks_1_OAuP.cpp" 
+g++ -o "First Project.exe" "src\\Laboratory_work_1_Infa.o" "src\\Laboratory_work_1_OAuP.o" "src\\Tasks_1_OAuP.o" 
+23:44:43 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Tasks_1_OAuP.o" "..\\src\\Tasks_1_OAuP.cpp" 
+g++ -o "First Project.exe" "src\\Laboratory_work_1_Infa.o" "src\\Laboratory_work_1_OAuP.o" "src\\Tasks_1_OAuP.o" 
+23:48:53 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Tasks_1_OAuP.o" "..\\src\\Tasks_1_OAuP.cpp" 
+g++ -o "First Project.exe" "src\\Laboratory_work_1_Infa.o" "src\\Laboratory_work_1_OAuP.o" "src\\Tasks_1_OAuP.o" 
+Info: Nothing to build for First Project
+23:57:03 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Tasks_1_OAuP.o" "..\\src\\Tasks_1_OAuP.cpp" 
+g++ -o "First Project.exe" "src\\Laboratory_work_1_Infa.o" "src\\Laboratory_work_1_OAuP.o" "src\\Tasks_1_OAuP.o" 
+Info: Nothing to build for First Project
+Info: Nothing to build for First Project
+00:03:37 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Tasks_1_OAuP.o" "..\\src\\Tasks_1_OAuP.cpp" 
+g++ -o "First Project.exe" "src\\Laboratory_work_1_Infa.o" "src\\Laboratory_work_1_OAuP.o" "src\\Tasks_1_OAuP.o" 
+Info: Nothing to build for First Project
+Info: Nothing to build for First Project
+00:09:29 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Tasks_1_OAuP.o" "..\\src\\Tasks_1_OAuP.cpp" 
+g++ -o "First Project.exe" "src\\Laboratory_work_1_Infa.o" "src\\Laboratory_work_1_OAuP.o" "src\\Tasks_1_OAuP.o" 
+00:09:54 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Tasks_1_OAuP.o" "..\\src\\Tasks_1_OAuP.cpp" 
+g++ -o "First Project.exe" "src\\Laboratory_work_1_Infa.o" "src\\Laboratory_work_1_OAuP.o" "src\\Tasks_1_OAuP.o" 
+00:10:32 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Tasks_1_OAuP.o" "..\\src\\Tasks_1_OAuP.cpp" 
+g++ -o "First Project.exe" "src\\Laboratory_work_1_Infa.o" "src\\Laboratory_work_1_OAuP.o" "src\\Tasks_1_OAuP.o" 
