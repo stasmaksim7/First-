@@ -885,3 +885,934 @@ g++ -o "First Project.exe" "src\\Laboratory_work_1_Infa.o" "src\\Laboratory_work
 Info: Internal Builder is used for build
 g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Tasks_1_OAuP.o" "..\\src\\Tasks_1_OAuP.cpp" 
 g++ -o "First Project.exe" "src\\Laboratory_work_1_Infa.o" "src\\Laboratory_work_1_OAuP.o" "src\\Tasks_1_OAuP.o" 
+18:51:11 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Tasks_1_OAuP.o" "..\\src\\Tasks_1_OAuP.cpp" 
+..\src\Tasks_1_OAuP.cpp: In function 'int main()':
+..\src\Tasks_1_OAuP.cpp:115:6: warning: unused variable 'k' [-Wunused-variable]
+  int k = 0;
+      ^
+..\src\Tasks_1_OAuP.cpp:122:1: error: expected '}' at end of input
+ }
+ ^
+18:52:30 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Tasks_1_OAuP.o" "..\\src\\Tasks_1_OAuP.cpp" 
+g++ -o "First Project.exe" "src\\Laboratory_work_1_Infa.o" "src\\Laboratory_work_1_OAuP.o" "src\\Tasks_1_OAuP.o" 
+19:55:11 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Tasks_1_OAuP.o" "..\\src\\Tasks_1_OAuP.cpp" 
+..\src\Tasks_1_OAuP.cpp: In function 'int main()':
+..\src\Tasks_1_OAuP.cpp:128:13: error: no match for 'operator!=' (operand types are '__gnu_cxx::__alloc_traits<std::allocator<char> >::value_type {aka char}' and 'std::__cxx11::string {aka std::__cxx11::basic_string<char>}')
+    if (s[i] != a) {
+              
+In file included from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\iosfwd:40:0,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\ios:38,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\ostream:38,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\iostream:39,
+                 from ..\src\Tasks_1_OAuP.cpp:112:
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\postypes.h:221:5: note: candidate: template<class _StateT> bool std::operator!=(const std::fpos<_StateT>&, const std::fpos<_StateT>&)
+     operator!=(const fpos<_StateT>& __lhs, const fpos<_StateT>& __rhs)
+     ^~~~~~~~
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\postypes.h:221:5: note:   template argument deduction/substitution failed:
+..\src\Tasks_1_OAuP.cpp:128:16: note:   mismatched types 'const std::fpos<_StateT>' and '__gnu_cxx::__alloc_traits<std::allocator<char> >::value_type {aka char}'
+    if (s[i] != a) {
+                ^
+In file included from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_algobase.h:64:0,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\char_traits.h:39,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\ios:40,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\ostream:38,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\iostream:39,
+                 from ..\src\Tasks_1_OAuP.cpp:112:
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_pair.h:444:5: note: candidate: template<class _T1, class _T2> constexpr bool std::operator!=(const std::pair<_T1, _T2>&, const std::pair<_T1, _T2>&)
+     operator!=(const pair<_T1, _T2>& __x, const pair<_T1, _T2>& __y)
+     ^~~~~~~~
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_pair.h:444:5: note:   template argument deduction/substitution failed:
+..\src\Tasks_1_OAuP.cpp:128:16: note:   mismatched types 'const std::pair<_T1, _T2>' and '__gnu_cxx::__alloc_traits<std::allocator<char> >::value_type {aka char}'
+    if (s[i] != a) {
+                ^
+In file included from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_algobase.h:67:0,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\char_traits.h:39,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\ios:40,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\ostream:38,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\iostream:39,
+                 from ..\src\Tasks_1_OAuP.cpp:112:
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_iterator.h:304:5: note: candidate: template<class _Iterator> bool std::operator!=(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_Iterator>&)
+     operator!=(const reverse_iterator<_Iterator>& __x,
+     ^~~~~~~~
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_iterator.h:304:5: note:   template argument deduction/substitution failed:
+..\src\Tasks_1_OAuP.cpp:128:16: note:   mismatched types 'const std::reverse_iterator<_Iterator>' and '__gnu_cxx::__alloc_traits<std::allocator<char> >::value_type {aka char}'
+    if (s[i] != a) {
+                ^
+In file included from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_algobase.h:67:0,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\char_traits.h:39,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\ios:40,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\ostream:38,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\iostream:39,
+                 from ..\src\Tasks_1_OAuP.cpp:112:
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_iterator.h:361:5: note: candidate: template<class _IteratorL, class _IteratorR> bool std::operator!=(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_IteratorR>&)
+     operator!=(const reverse_iterator<_IteratorL>& __x,
+     ^~~~~~~~
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_iterator.h:361:5: note:   template argument deduction/substitution failed:
+..\src\Tasks_1_OAuP.cpp:128:16: note:   mismatched types 'const std::reverse_iterator<_Iterator>' and '__gnu_cxx::__alloc_traits<std::allocator<char> >::value_type {aka char}'
+    if (s[i] != a) {
+                ^
+In file included from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_algobase.h:67:0,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\char_traits.h:39,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\ios:40,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\ostream:38,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\iostream:39,
+                 from ..\src\Tasks_1_OAuP.cpp:112:
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_iterator.h:1125:5: note: candidate: template<class _IteratorL, class _IteratorR> bool std::operator!=(const std::move_iterator<_IteratorL>&, const std::move_iterator<_IteratorR>&)
+     operator!=(const move_iterator<_IteratorL>& __x,
+     ^~~~~~~~
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_iterator.h:1125:5: note:   template argument deduction/substitution failed:
+..\src\Tasks_1_OAuP.cpp:128:16: note:   mismatched types 'const std::move_iterator<_IteratorL>' and '__gnu_cxx::__alloc_traits<std::allocator<char> >::value_type {aka char}'
+    if (s[i] != a) {
+                ^
+In file included from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_algobase.h:67:0,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\char_traits.h:39,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\ios:40,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\ostream:38,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\iostream:39,
+                 from ..\src\Tasks_1_OAuP.cpp:112:
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_iterator.h:1131:5: note: candidate: template<class _Iterator> bool std::operator!=(const std::move_iterator<_IteratorL>&, const std::move_iterator<_IteratorL>&)
+     operator!=(const move_iterator<_Iterator>& __x,
+     ^~~~~~~~
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_iterator.h:1131:5: note:   template argument deduction/substitution failed:
+..\src\Tasks_1_OAuP.cpp:128:16: note:   mismatched types 'const std::move_iterator<_IteratorL>' and '__gnu_cxx::__alloc_traits<std::allocator<char> >::value_type {aka char}'
+    if (s[i] != a) {
+                ^
+In file included from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\string:41:0,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\locale_classes.h:40,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\ios_base.h:41,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\ios:42,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\ostream:38,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\iostream:39,
+                 from ..\src\Tasks_1_OAuP.cpp:112:
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\allocator.h:158:5: note: candidate: template<class _T1, class _T2> bool std::operator!=(const std::allocator<_CharT>&, const std::allocator<_T2>&)
+     operator!=(const allocator<_T1>&, const allocator<_T2>&)
+     ^~~~~~~~
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\allocator.h:158:5: note:   template argument deduction/substitution failed:
+..\src\Tasks_1_OAuP.cpp:128:16: note:   mismatched types 'const std::allocator<_CharT>' and '__gnu_cxx::__alloc_traits<std::allocator<char> >::value_type {aka char}'
+    if (s[i] != a) {
+                ^
+In file included from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\string:41:0,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\locale_classes.h:40,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\ios_base.h:41,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\ios:42,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\ostream:38,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\iostream:39,
+                 from ..\src\Tasks_1_OAuP.cpp:112:
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\allocator.h:164:5: note: candidate: template<class _Tp> bool std::operator!=(const std::allocator<_CharT>&, const std::allocator<_CharT>&)
+     operator!=(const allocator<_Tp>&, const allocator<_Tp>&)
+     ^~~~~~~~
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\allocator.h:164:5: note:   template argument deduction/substitution failed:
+..\src\Tasks_1_OAuP.cpp:128:16: note:   mismatched types 'const std::allocator<_CharT>' and '__gnu_cxx::__alloc_traits<std::allocator<char> >::value_type {aka char}'
+    if (s[i] != a) {
+                ^
+In file included from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\string:52:0,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\locale_classes.h:40,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\ios_base.h:41,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\ios:42,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\ostream:38,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\iostream:39,
+                 from ..\src\Tasks_1_OAuP.cpp:112:
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\basic_string.h:5097:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> bool std::operator!=(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)
+     operator!=(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+     ^~~~~~~~
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\basic_string.h:5097:5: note:   template argument deduction/substitution failed:
+..\src\Tasks_1_OAuP.cpp:128:16: note:   mismatched types 'const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>' and '__gnu_cxx::__alloc_traits<std::allocator<char> >::value_type {aka char}'
+    if (s[i] != a) {
+                ^
+In file included from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\string:52:0,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\locale_classes.h:40,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\ios_base.h:41,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\ios:42,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\ostream:38,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\iostream:39,
+                 from ..\src\Tasks_1_OAuP.cpp:112:
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\basic_string.h:5110:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> bool std::operator!=(const _CharT*, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)
+     operator!=(const _CharT* __lhs,
+     ^~~~~~~~
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\basic_string.h:5110:5: note:   template argument deduction/substitution failed:
+..\src\Tasks_1_OAuP.cpp:128:16: note:   mismatched types 'const _CharT*' and 'char'
+    if (s[i] != a) {
+                ^
+In file included from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\string:52:0,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\locale_classes.h:40,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\ios_base.h:41,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\ios:42,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\ostream:38,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\iostream:39,
+                 from ..\src\Tasks_1_OAuP.cpp:112:
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\basic_string.h:5122:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> bool std::operator!=(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, const _CharT*)
+     operator!=(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+     ^~~~~~~~
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\basic_string.h:5122:5: note:   template argument deduction/substitution failed:
+..\src\Tasks_1_OAuP.cpp:128:16: note:   mismatched types 'const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>' and '__gnu_cxx::__alloc_traits<std::allocator<char> >::value_type {aka char}'
+    if (s[i] != a) {
+                ^
+In file included from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\ios_base.h:46:0,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\ios:42,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\ostream:38,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\iostream:39,
+                 from ..\src\Tasks_1_OAuP.cpp:112:
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\system_error:311:3: note: candidate: bool std::operator!=(const std::error_code&, const std::error_code&)
+   operator!=(const error_code& __lhs, const error_code& __rhs) noexcept
+   ^~~~~~~~
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\system_error:311:3: note:   no known conversion for argument 1 from '__gnu_cxx::__alloc_traits<std::allocator<char> >::value_type {aka char}' to 'const std::error_code&'
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\system_error:315:3: note: candidate: bool std::operator!=(const std::error_code&, const std::error_condition&)
+   operator!=(const error_code& __lhs, const error_condition& __rhs) noexcept
+   ^~~~~~~~
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\system_error:315:3: note:   no known conversion for argument 1 from '__gnu_cxx::__alloc_traits<std::allocator<char> >::value_type {aka char}' to 'const std::error_code&'
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\system_error:319:3: note: candidate: bool std::operator!=(const std::error_condition&, const std::error_code&)
+   operator!=(const error_condition& __lhs, const error_code& __rhs) noexcept
+   ^~~~~~~~
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\system_error:319:3: note:   no known conversion for argument 1 from '__gnu_cxx::__alloc_traits<std::allocator<char> >::value_type {aka char}' to 'const std::error_condition&'
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\system_error:323:3: note: candidate: bool std::operator!=(const std::error_condition&, const std::error_condition&)
+   operator!=(const error_condition& __lhs,
+   ^~~~~~~~
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\system_error:323:3: note:   no known conversion for argument 1 from '__gnu_cxx::__alloc_traits<std::allocator<char> >::value_type {aka char}' to 'const std::error_condition&'
+In file included from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\locale_facets.h:48:0,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\basic_ios.h:37,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\ios:44,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\ostream:38,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\iostream:39,
+                 from ..\src\Tasks_1_OAuP.cpp:112:
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\streambuf_iterator.h:210:5: note: candidate: template<class _CharT, class _Traits> bool std::operator!=(const std::istreambuf_iterator<_CharT, _Traits>&, const std::istreambuf_iterator<_CharT, _Traits>&)
+     operator!=(const istreambuf_iterator<_CharT, _Traits>& __a,
+     ^~~~~~~~
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\streambuf_iterator.h:210:5: note:   template argument deduction/substitution failed:
+..\src\Tasks_1_OAuP.cpp:128:16: note:   mismatched types 'const std::istreambuf_iterator<_CharT, _Traits>' and '__gnu_cxx::__alloc_traits<std::allocator<char> >::value_type {aka char}'
+    if (s[i] != a) {
+                ^
+In file included from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\c++allocator.h:33:0,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\allocator.h:46,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\string:41,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\locale_classes.h:40,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\ios_base.h:41,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\ios:42,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\ostream:38,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\iostream:39,
+                 from ..\src\Tasks_1_OAuP.cpp:112:
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\ext\new_allocator.h:144:5: note: candidate: template<class _Tp> bool __gnu_cxx::operator!=(const __gnu_cxx::new_allocator<_Tp>&, const __gnu_cxx::new_allocator<_Tp>&)
+     operator!=(const new_allocator<_Tp>&, const new_allocator<_Tp>&)
+     ^~~~~~~~
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\ext\new_allocator.h:144:5: note:   template argument deduction/substitution failed:
+..\src\Tasks_1_OAuP.cpp:128:16: note:   mismatched types 'const __gnu_cxx::new_allocator<_Tp>' and '__gnu_cxx::__alloc_traits<std::allocator<char> >::value_type {aka char}'
+    if (s[i] != a) {
+                ^
+In file included from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_algobase.h:67:0,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\char_traits.h:39,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\ios:40,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\ostream:38,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\iostream:39,
+                 from ..\src\Tasks_1_OAuP.cpp:112:
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_iterator.h:877:5: note: candidate: template<class _Iterator, class _Container> bool __gnu_cxx::operator!=(const __gnu_cxx::__normal_iterator<_Iterator, _Container>&, const __gnu_cxx::__normal_iterator<_Iterator, _Container>&)
+     operator!=(const __normal_iterator<_Iterator, _Container>& __lhs,
+     ^~~~~~~~
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_iterator.h:877:5: note:   template argument deduction/substitution failed:
+..\src\Tasks_1_OAuP.cpp:128:16: note:   mismatched types 'const __gnu_cxx::__normal_iterator<_Iterator, _Container>' and '__gnu_cxx::__alloc_traits<std::allocator<char> >::value_type {aka char}'
+    if (s[i] != a) {
+                ^
+In file included from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_algobase.h:67:0,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\char_traits.h:39,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\ios:40,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\ostream:38,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\iostream:39,
+                 from ..\src\Tasks_1_OAuP.cpp:112:
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_iterator.h:870:5: note: candidate: template<class _IteratorL, class _IteratorR, class _Container> bool __gnu_cxx::operator!=(const __gnu_cxx::__normal_iterator<_IteratorL, _Container>&, const __gnu_cxx::__normal_iterator<_IteratorR, _Container>&)
+     operator!=(const __normal_iterator<_IteratorL, _Container>& __lhs,
+     ^~~~~~~~
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_iterator.h:870:5: note:   template argument deduction/substitution failed:
+..\src\Tasks_1_OAuP.cpp:128:16: note:   mismatched types 'const __gnu_cxx::__normal_iterator<_IteratorL, _Container>' and '__gnu_cxx::__alloc_traits<std::allocator<char> >::value_type {aka char}'
+    if (s[i] != a) {
+                ^
+19:59:03 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Tasks_1_OAuP.o" "..\\src\\Tasks_1_OAuP.cpp" 
+..\src\Tasks_1_OAuP.cpp: In function 'int main()':
+..\src\Tasks_1_OAuP.cpp:128:16: error: no match for 'operator==' (operand types are '__gnu_cxx::__alloc_traits<std::allocator<char> >::value_type {aka char}' and 'std::__cxx11::string {aka std::__cxx11::basic_string<char>}')
+    if (s.at(i) == a) {
+        ~~~~~~~~^~~~
+In file included from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\iosfwd:40:0,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\ios:38,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\ostream:38,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\iostream:39,
+                 from ..\src\Tasks_1_OAuP.cpp:112:
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\postypes.h:216:5: note: candidate: template<class _StateT> bool std::operator==(const std::fpos<_StateT>&, const std::fpos<_StateT>&)
+     operator==(const fpos<_StateT>& __lhs, const fpos<_StateT>& __rhs)
+     ^~~~~~~~
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\postypes.h:216:5: note:   template argument deduction/substitution failed:
+..\src\Tasks_1_OAuP.cpp:128:19: note:   mismatched types 'const std::fpos<_StateT>' and '__gnu_cxx::__alloc_traits<std::allocator<char> >::value_type {aka char}'
+    if (s.at(i) == a) {
+                   ^
+In file included from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_algobase.h:64:0,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\char_traits.h:39,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\ios:40,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\ostream:38,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\iostream:39,
+                 from ..\src\Tasks_1_OAuP.cpp:112:
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_pair.h:431:5: note: candidate: template<class _T1, class _T2> constexpr bool std::operator==(const std::pair<_T1, _T2>&, const std::pair<_T1, _T2>&)
+     operator==(const pair<_T1, _T2>& __x, const pair<_T1, _T2>& __y)
+     ^~~~~~~~
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_pair.h:431:5: note:   template argument deduction/substitution failed:
+..\src\Tasks_1_OAuP.cpp:128:19: note:   mismatched types 'const std::pair<_T1, _T2>' and '__gnu_cxx::__alloc_traits<std::allocator<char> >::value_type {aka char}'
+    if (s.at(i) == a) {
+                   ^
+In file included from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_algobase.h:67:0,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\char_traits.h:39,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\ios:40,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\ostream:38,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\iostream:39,
+                 from ..\src\Tasks_1_OAuP.cpp:112:
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_iterator.h:292:5: note: candidate: template<class _Iterator> bool std::operator==(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_Iterator>&)
+     operator==(const reverse_iterator<_Iterator>& __x,
+     ^~~~~~~~
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_iterator.h:292:5: note:   template argument deduction/substitution failed:
+..\src\Tasks_1_OAuP.cpp:128:19: note:   mismatched types 'const std::reverse_iterator<_Iterator>' and '__gnu_cxx::__alloc_traits<std::allocator<char> >::value_type {aka char}'
+    if (s.at(i) == a) {
+                   ^
+In file included from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_algobase.h:67:0,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\char_traits.h:39,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\ios:40,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\ostream:38,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\iostream:39,
+                 from ..\src\Tasks_1_OAuP.cpp:112:
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_iterator.h:349:5: note: candidate: template<class _IteratorL, class _IteratorR> bool std::operator==(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_IteratorR>&)
+     operator==(const reverse_iterator<_IteratorL>& __x,
+     ^~~~~~~~
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_iterator.h:349:5: note:   template argument deduction/substitution failed:
+..\src\Tasks_1_OAuP.cpp:128:19: note:   mismatched types 'const std::reverse_iterator<_Iterator>' and '__gnu_cxx::__alloc_traits<std::allocator<char> >::value_type {aka char}'
+    if (s.at(i) == a) {
+                   ^
+In file included from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_algobase.h:67:0,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\char_traits.h:39,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\ios:40,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\ostream:38,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\iostream:39,
+                 from ..\src\Tasks_1_OAuP.cpp:112:
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_iterator.h:1113:5: note: candidate: template<class _IteratorL, class _IteratorR> bool std::operator==(const std::move_iterator<_IteratorL>&, const std::move_iterator<_IteratorR>&)
+     operator==(const move_iterator<_IteratorL>& __x,
+     ^~~~~~~~
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_iterator.h:1113:5: note:   template argument deduction/substitution failed:
+..\src\Tasks_1_OAuP.cpp:128:19: note:   mismatched types 'const std::move_iterator<_IteratorL>' and '__gnu_cxx::__alloc_traits<std::allocator<char> >::value_type {aka char}'
+    if (s.at(i) == a) {
+                   ^
+In file included from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_algobase.h:67:0,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\char_traits.h:39,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\ios:40,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\ostream:38,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\iostream:39,
+                 from ..\src\Tasks_1_OAuP.cpp:112:
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_iterator.h:1119:5: note: candidate: template<class _Iterator> bool std::operator==(const std::move_iterator<_IteratorL>&, const std::move_iterator<_IteratorL>&)
+     operator==(const move_iterator<_Iterator>& __x,
+     ^~~~~~~~
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_iterator.h:1119:5: note:   template argument deduction/substitution failed:
+..\src\Tasks_1_OAuP.cpp:128:19: note:   mismatched types 'const std::move_iterator<_IteratorL>' and '__gnu_cxx::__alloc_traits<std::allocator<char> >::value_type {aka char}'
+    if (s.at(i) == a) {
+                   ^
+In file included from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\string:41:0,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\locale_classes.h:40,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\ios_base.h:41,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\ios:42,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\ostream:38,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\iostream:39,
+                 from ..\src\Tasks_1_OAuP.cpp:112:
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\allocator.h:146:5: note: candidate: template<class _T1, class _T2> bool std::operator==(const std::allocator<_CharT>&, const std::allocator<_T2>&)
+     operator==(const allocator<_T1>&, const allocator<_T2>&)
+     ^~~~~~~~
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\allocator.h:146:5: note:   template argument deduction/substitution failed:
+..\src\Tasks_1_OAuP.cpp:128:19: note:   mismatched types 'const std::allocator<_CharT>' and '__gnu_cxx::__alloc_traits<std::allocator<char> >::value_type {aka char}'
+    if (s.at(i) == a) {
+                   ^
+In file included from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\string:41:0,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\locale_classes.h:40,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\ios_base.h:41,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\ios:42,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\ostream:38,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\iostream:39,
+                 from ..\src\Tasks_1_OAuP.cpp:112:
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\allocator.h:152:5: note: candidate: template<class _Tp> bool std::operator==(const std::allocator<_CharT>&, const std::allocator<_CharT>&)
+     operator==(const allocator<_Tp>&, const allocator<_Tp>&)
+     ^~~~~~~~
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\allocator.h:152:5: note:   template argument deduction/substitution failed:
+..\src\Tasks_1_OAuP.cpp:128:19: note:   mismatched types 'const std::allocator<_CharT>' and '__gnu_cxx::__alloc_traits<std::allocator<char> >::value_type {aka char}'
+    if (s.at(i) == a) {
+                   ^
+In file included from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\string:52:0,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\locale_classes.h:40,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\ios_base.h:41,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\ios:42,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\ostream:38,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\iostream:39,
+                 from ..\src\Tasks_1_OAuP.cpp:112:
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\basic_string.h:5050:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)
+     operator==(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+     ^~~~~~~~
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\basic_string.h:5050:5: note:   template argument deduction/substitution failed:
+..\src\Tasks_1_OAuP.cpp:128:19: note:   mismatched types 'const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>' and '__gnu_cxx::__alloc_traits<std::allocator<char> >::value_type {aka char}'
+    if (s.at(i) == a) {
+                   ^
+In file included from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\string:52:0,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\locale_classes.h:40,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\ios_base.h:41,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\ios:42,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\ostream:38,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\iostream:39,
+                 from ..\src\Tasks_1_OAuP.cpp:112:
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\basic_string.h:5058:5: note: candidate: template<class _CharT> typename __gnu_cxx::__enable_if<std::__is_char<_Tp>::__value, bool>::__type std::operator==(const std::__cxx11::basic_string<_CharT>&, const std::__cxx11::basic_string<_CharT>&)
+     operator==(const basic_string<_CharT>& __lhs,
+     ^~~~~~~~
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\basic_string.h:5058:5: note:   template argument deduction/substitution failed:
+..\src\Tasks_1_OAuP.cpp:128:19: note:   mismatched types 'const std::__cxx11::basic_string<_CharT>' and '__gnu_cxx::__alloc_traits<std::allocator<char> >::value_type {aka char}'
+    if (s.at(i) == a) {
+                   ^
+In file included from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\string:52:0,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\locale_classes.h:40,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\ios_base.h:41,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\ios:42,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\ostream:38,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\iostream:39,
+                 from ..\src\Tasks_1_OAuP.cpp:112:
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\basic_string.h:5072:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const _CharT*, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)
+     operator==(const _CharT* __lhs,
+     ^~~~~~~~
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\basic_string.h:5072:5: note:   template argument deduction/substitution failed:
+..\src\Tasks_1_OAuP.cpp:128:19: note:   mismatched types 'const _CharT*' and 'char'
+    if (s.at(i) == a) {
+                   ^
+In file included from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\string:52:0,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\locale_classes.h:40,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\ios_base.h:41,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\ios:42,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\ostream:38,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\iostream:39,
+                 from ..\src\Tasks_1_OAuP.cpp:112:
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\basic_string.h:5084:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, const _CharT*)
+     operator==(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+     ^~~~~~~~
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\basic_string.h:5084:5: note:   template argument deduction/substitution failed:
+..\src\Tasks_1_OAuP.cpp:128:19: note:   mismatched types 'const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>' and '__gnu_cxx::__alloc_traits<std::allocator<char> >::value_type {aka char}'
+    if (s.at(i) == a) {
+                   ^
+In file included from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\ios_base.h:46:0,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\ios:42,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\ostream:38,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\iostream:39,
+                 from ..\src\Tasks_1_OAuP.cpp:112:
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\system_error:284:3: note: candidate: bool std::operator==(const std::error_code&, const std::error_code&)
+   operator==(const error_code& __lhs, const error_code& __rhs) noexcept
+   ^~~~~~~~
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\system_error:284:3: note:   no known conversion for argument 1 from '__gnu_cxx::__alloc_traits<std::allocator<char> >::value_type {aka char}' to 'const std::error_code&'
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\system_error:289:3: note: candidate: bool std::operator==(const std::error_code&, const std::error_condition&)
+   operator==(const error_code& __lhs, const error_condition& __rhs) noexcept
+   ^~~~~~~~
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\system_error:289:3: note:   no known conversion for argument 1 from '__gnu_cxx::__alloc_traits<std::allocator<char> >::value_type {aka char}' to 'const std::error_code&'
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\system_error:296:3: note: candidate: bool std::operator==(const std::error_condition&, const std::error_code&)
+   operator==(const error_condition& __lhs, const error_code& __rhs) noexcept
+   ^~~~~~~~
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\system_error:296:3: note:   no known conversion for argument 1 from '__gnu_cxx::__alloc_traits<std::allocator<char> >::value_type {aka char}' to 'const std::error_condition&'
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\system_error:303:3: note: candidate: bool std::operator==(const std::error_condition&, const std::error_condition&)
+   operator==(const error_condition& __lhs,
+   ^~~~~~~~
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\system_error:303:3: note:   no known conversion for argument 1 from '__gnu_cxx::__alloc_traits<std::allocator<char> >::value_type {aka char}' to 'const std::error_condition&'
+In file included from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\locale_facets.h:48:0,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\basic_ios.h:37,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\ios:44,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\ostream:38,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\iostream:39,
+                 from ..\src\Tasks_1_OAuP.cpp:112:
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\streambuf_iterator.h:204:5: note: candidate: template<class _CharT, class _Traits> bool std::operator==(const std::istreambuf_iterator<_CharT, _Traits>&, const std::istreambuf_iterator<_CharT, _Traits>&)
+     operator==(const istreambuf_iterator<_CharT, _Traits>& __a,
+     ^~~~~~~~
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\streambuf_iterator.h:204:5: note:   template argument deduction/substitution failed:
+..\src\Tasks_1_OAuP.cpp:128:19: note:   mismatched types 'const std::istreambuf_iterator<_CharT, _Traits>' and '__gnu_cxx::__alloc_traits<std::allocator<char> >::value_type {aka char}'
+    if (s.at(i) == a) {
+                   ^
+In file included from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\c++allocator.h:33:0,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\allocator.h:46,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\string:41,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\locale_classes.h:40,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\ios_base.h:41,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\ios:42,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\ostream:38,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\iostream:39,
+                 from ..\src\Tasks_1_OAuP.cpp:112:
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\ext\new_allocator.h:139:5: note: candidate: template<class _Tp> bool __gnu_cxx::operator==(const __gnu_cxx::new_allocator<_Tp>&, const __gnu_cxx::new_allocator<_Tp>&)
+     operator==(const new_allocator<_Tp>&, const new_allocator<_Tp>&)
+     ^~~~~~~~
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\ext\new_allocator.h:139:5: note:   template argument deduction/substitution failed:
+..\src\Tasks_1_OAuP.cpp:128:19: note:   mismatched types 'const __gnu_cxx::new_allocator<_Tp>' and '__gnu_cxx::__alloc_traits<std::allocator<char> >::value_type {aka char}'
+    if (s.at(i) == a) {
+                   ^
+In file included from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_algobase.h:67:0,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\char_traits.h:39,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\ios:40,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\ostream:38,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\iostream:39,
+                 from ..\src\Tasks_1_OAuP.cpp:112:
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_iterator.h:863:5: note: candidate: template<class _Iterator, class _Container> bool __gnu_cxx::operator==(const __gnu_cxx::__normal_iterator<_Iterator, _Container>&, const __gnu_cxx::__normal_iterator<_Iterator, _Container>&)
+     operator==(const __normal_iterator<_Iterator, _Container>& __lhs,
+     ^~~~~~~~
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_iterator.h:863:5: note:   template argument deduction/substitution failed:
+..\src\Tasks_1_OAuP.cpp:128:19: note:   mismatched types 'const __gnu_cxx::__normal_iterator<_Iterator, _Container>' and '__gnu_cxx::__alloc_traits<std::allocator<char> >::value_type {aka char}'
+    if (s.at(i) == a) {
+                   ^
+In file included from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_algobase.h:67:0,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\char_traits.h:39,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\ios:40,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\ostream:38,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\iostream:39,
+                 from ..\src\Tasks_1_OAuP.cpp:112:
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_iterator.h:856:5: note: candidate: template<class _IteratorL, class _IteratorR, class _Container> bool __gnu_cxx::operator==(const __gnu_cxx::__normal_iterator<_IteratorL, _Container>&, const __gnu_cxx::__normal_iterator<_IteratorR, _Container>&)
+     operator==(const __normal_iterator<_IteratorL, _Container>& __lhs,
+     ^~~~~~~~
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_iterator.h:856:5: note:   template argument deduction/substitution failed:
+..\src\Tasks_1_OAuP.cpp:128:19: note:   mismatched types 'const __gnu_cxx::__normal_iterator<_IteratorL, _Container>' and '__gnu_cxx::__alloc_traits<std::allocator<char> >::value_type {aka char}'
+    if (s.at(i) == a) {
+                   ^
+20:00:54 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Tasks_1_OAuP.o" "..\\src\\Tasks_1_OAuP.cpp" 
+..\src\Tasks_1_OAuP.cpp: In function 'int main()':
+..\src\Tasks_1_OAuP.cpp:128:17: error: no match for 'operator==' (operand types are '__gnu_cxx::__alloc_traits<std::allocator<char> >::value_type {aka char}' and 'std::__cxx11::string {aka std::__cxx11::basic_string<char>}')
+    if ((s.at(i) == a) == True) {
+         ~~~~~~~~^~~~
+In file included from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\iosfwd:40:0,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\ios:38,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\ostream:38,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\iostream:39,
+                 from ..\src\Tasks_1_OAuP.cpp:112:
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\postypes.h:216:5: note: candidate: template<class _StateT> bool std::operator==(const std::fpos<_StateT>&, const std::fpos<_StateT>&)
+     operator==(const fpos<_StateT>& __lhs, const fpos<_StateT>& __rhs)
+     ^~~~~~~~
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\postypes.h:216:5: note:   template argument deduction/substitution failed:
+..\src\Tasks_1_OAuP.cpp:128:20: note:   mismatched types 'const std::fpos<_StateT>' and '__gnu_cxx::__alloc_traits<std::allocator<char> >::value_type {aka char}'
+    if ((s.at(i) == a) == True) {
+                    ^
+In file included from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_algobase.h:64:0,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\char_traits.h:39,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\ios:40,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\ostream:38,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\iostream:39,
+                 from ..\src\Tasks_1_OAuP.cpp:112:
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_pair.h:431:5: note: candidate: template<class _T1, class _T2> constexpr bool std::operator==(const std::pair<_T1, _T2>&, const std::pair<_T1, _T2>&)
+     operator==(const pair<_T1, _T2>& __x, const pair<_T1, _T2>& __y)
+     ^~~~~~~~
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_pair.h:431:5: note:   template argument deduction/substitution failed:
+..\src\Tasks_1_OAuP.cpp:128:20: note:   mismatched types 'const std::pair<_T1, _T2>' and '__gnu_cxx::__alloc_traits<std::allocator<char> >::value_type {aka char}'
+    if ((s.at(i) == a) == True) {
+                    ^
+In file included from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_algobase.h:67:0,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\char_traits.h:39,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\ios:40,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\ostream:38,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\iostream:39,
+                 from ..\src\Tasks_1_OAuP.cpp:112:
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_iterator.h:292:5: note: candidate: template<class _Iterator> bool std::operator==(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_Iterator>&)
+     operator==(const reverse_iterator<_Iterator>& __x,
+     ^~~~~~~~
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_iterator.h:292:5: note:   template argument deduction/substitution failed:
+..\src\Tasks_1_OAuP.cpp:128:20: note:   mismatched types 'const std::reverse_iterator<_Iterator>' and '__gnu_cxx::__alloc_traits<std::allocator<char> >::value_type {aka char}'
+    if ((s.at(i) == a) == True) {
+                    ^
+In file included from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_algobase.h:67:0,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\char_traits.h:39,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\ios:40,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\ostream:38,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\iostream:39,
+                 from ..\src\Tasks_1_OAuP.cpp:112:
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_iterator.h:349:5: note: candidate: template<class _IteratorL, class _IteratorR> bool std::operator==(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_IteratorR>&)
+     operator==(const reverse_iterator<_IteratorL>& __x,
+     ^~~~~~~~
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_iterator.h:349:5: note:   template argument deduction/substitution failed:
+..\src\Tasks_1_OAuP.cpp:128:20: note:   mismatched types 'const std::reverse_iterator<_Iterator>' and '__gnu_cxx::__alloc_traits<std::allocator<char> >::value_type {aka char}'
+    if ((s.at(i) == a) == True) {
+                    ^
+In file included from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_algobase.h:67:0,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\char_traits.h:39,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\ios:40,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\ostream:38,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\iostream:39,
+                 from ..\src\Tasks_1_OAuP.cpp:112:
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_iterator.h:1113:5: note: candidate: template<class _IteratorL, class _IteratorR> bool std::operator==(const std::move_iterator<_IteratorL>&, const std::move_iterator<_IteratorR>&)
+     operator==(const move_iterator<_IteratorL>& __x,
+     ^~~~~~~~
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_iterator.h:1113:5: note:   template argument deduction/substitution failed:
+..\src\Tasks_1_OAuP.cpp:128:20: note:   mismatched types 'const std::move_iterator<_IteratorL>' and '__gnu_cxx::__alloc_traits<std::allocator<char> >::value_type {aka char}'
+    if ((s.at(i) == a) == True) {
+                    ^
+In file included from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_algobase.h:67:0,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\char_traits.h:39,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\ios:40,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\ostream:38,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\iostream:39,
+                 from ..\src\Tasks_1_OAuP.cpp:112:
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_iterator.h:1119:5: note: candidate: template<class _Iterator> bool std::operator==(const std::move_iterator<_IteratorL>&, const std::move_iterator<_IteratorL>&)
+     operator==(const move_iterator<_Iterator>& __x,
+     ^~~~~~~~
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_iterator.h:1119:5: note:   template argument deduction/substitution failed:
+..\src\Tasks_1_OAuP.cpp:128:20: note:   mismatched types 'const std::move_iterator<_IteratorL>' and '__gnu_cxx::__alloc_traits<std::allocator<char> >::value_type {aka char}'
+    if ((s.at(i) == a) == True) {
+                    ^
+In file included from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\string:41:0,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\locale_classes.h:40,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\ios_base.h:41,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\ios:42,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\ostream:38,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\iostream:39,
+                 from ..\src\Tasks_1_OAuP.cpp:112:
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\allocator.h:146:5: note: candidate: template<class _T1, class _T2> bool std::operator==(const std::allocator<_CharT>&, const std::allocator<_T2>&)
+     operator==(const allocator<_T1>&, const allocator<_T2>&)
+     ^~~~~~~~
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\allocator.h:146:5: note:   template argument deduction/substitution failed:
+..\src\Tasks_1_OAuP.cpp:128:20: note:   mismatched types 'const std::allocator<_CharT>' and '__gnu_cxx::__alloc_traits<std::allocator<char> >::value_type {aka char}'
+    if ((s.at(i) == a) == True) {
+                    ^
+In file included from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\string:41:0,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\locale_classes.h:40,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\ios_base.h:41,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\ios:42,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\ostream:38,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\iostream:39,
+                 from ..\src\Tasks_1_OAuP.cpp:112:
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\allocator.h:152:5: note: candidate: template<class _Tp> bool std::operator==(const std::allocator<_CharT>&, const std::allocator<_CharT>&)
+     operator==(const allocator<_Tp>&, const allocator<_Tp>&)
+     ^~~~~~~~
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\allocator.h:152:5: note:   template argument deduction/substitution failed:
+..\src\Tasks_1_OAuP.cpp:128:20: note:   mismatched types 'const std::allocator<_CharT>' and '__gnu_cxx::__alloc_traits<std::allocator<char> >::value_type {aka char}'
+    if ((s.at(i) == a) == True) {
+                    ^
+In file included from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\string:52:0,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\locale_classes.h:40,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\ios_base.h:41,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\ios:42,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\ostream:38,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\iostream:39,
+                 from ..\src\Tasks_1_OAuP.cpp:112:
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\basic_string.h:5050:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)
+     operator==(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+     ^~~~~~~~
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\basic_string.h:5050:5: note:   template argument deduction/substitution failed:
+..\src\Tasks_1_OAuP.cpp:128:20: note:   mismatched types 'const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>' and '__gnu_cxx::__alloc_traits<std::allocator<char> >::value_type {aka char}'
+    if ((s.at(i) == a) == True) {
+                    ^
+In file included from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\string:52:0,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\locale_classes.h:40,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\ios_base.h:41,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\ios:42,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\ostream:38,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\iostream:39,
+                 from ..\src\Tasks_1_OAuP.cpp:112:
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\basic_string.h:5058:5: note: candidate: template<class _CharT> typename __gnu_cxx::__enable_if<std::__is_char<_Tp>::__value, bool>::__type std::operator==(const std::__cxx11::basic_string<_CharT>&, const std::__cxx11::basic_string<_CharT>&)
+     operator==(const basic_string<_CharT>& __lhs,
+     ^~~~~~~~
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\basic_string.h:5058:5: note:   template argument deduction/substitution failed:
+..\src\Tasks_1_OAuP.cpp:128:20: note:   mismatched types 'const std::__cxx11::basic_string<_CharT>' and '__gnu_cxx::__alloc_traits<std::allocator<char> >::value_type {aka char}'
+    if ((s.at(i) == a) == True) {
+                    ^
+In file included from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\string:52:0,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\locale_classes.h:40,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\ios_base.h:41,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\ios:42,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\ostream:38,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\iostream:39,
+                 from ..\src\Tasks_1_OAuP.cpp:112:
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\basic_string.h:5072:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const _CharT*, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)
+     operator==(const _CharT* __lhs,
+     ^~~~~~~~
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\basic_string.h:5072:5: note:   template argument deduction/substitution failed:
+..\src\Tasks_1_OAuP.cpp:128:20: note:   mismatched types 'const _CharT*' and 'char'
+    if ((s.at(i) == a) == True) {
+                    ^
+In file included from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\string:52:0,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\locale_classes.h:40,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\ios_base.h:41,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\ios:42,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\ostream:38,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\iostream:39,
+                 from ..\src\Tasks_1_OAuP.cpp:112:
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\basic_string.h:5084:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, const _CharT*)
+     operator==(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+     ^~~~~~~~
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\basic_string.h:5084:5: note:   template argument deduction/substitution failed:
+..\src\Tasks_1_OAuP.cpp:128:20: note:   mismatched types 'const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>' and '__gnu_cxx::__alloc_traits<std::allocator<char> >::value_type {aka char}'
+    if ((s.at(i) == a) == True) {
+                    ^
+In file included from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\ios_base.h:46:0,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\ios:42,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\ostream:38,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\iostream:39,
+                 from ..\src\Tasks_1_OAuP.cpp:112:
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\system_error:284:3: note: candidate: bool std::operator==(const std::error_code&, const std::error_code&)
+   operator==(const error_code& __lhs, const error_code& __rhs) noexcept
+   ^~~~~~~~
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\system_error:284:3: note:   no known conversion for argument 1 from '__gnu_cxx::__alloc_traits<std::allocator<char> >::value_type {aka char}' to 'const std::error_code&'
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\system_error:289:3: note: candidate: bool std::operator==(const std::error_code&, const std::error_condition&)
+   operator==(const error_code& __lhs, const error_condition& __rhs) noexcept
+   ^~~~~~~~
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\system_error:289:3: note:   no known conversion for argument 1 from '__gnu_cxx::__alloc_traits<std::allocator<char> >::value_type {aka char}' to 'const std::error_code&'
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\system_error:296:3: note: candidate: bool std::operator==(const std::error_condition&, const std::error_code&)
+   operator==(const error_condition& __lhs, const error_code& __rhs) noexcept
+   ^~~~~~~~
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\system_error:296:3: note:   no known conversion for argument 1 from '__gnu_cxx::__alloc_traits<std::allocator<char> >::value_type {aka char}' to 'const std::error_condition&'
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\system_error:303:3: note: candidate: bool std::operator==(const std::error_condition&, const std::error_condition&)
+   operator==(const error_condition& __lhs,
+   ^~~~~~~~
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\system_error:303:3: note:   no known conversion for argument 1 from '__gnu_cxx::__alloc_traits<std::allocator<char> >::value_type {aka char}' to 'const std::error_condition&'
+In file included from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\locale_facets.h:48:0,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\basic_ios.h:37,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\ios:44,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\ostream:38,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\iostream:39,
+                 from ..\src\Tasks_1_OAuP.cpp:112:
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\streambuf_iterator.h:204:5: note: candidate: template<class _CharT, class _Traits> bool std::operator==(const std::istreambuf_iterator<_CharT, _Traits>&, const std::istreambuf_iterator<_CharT, _Traits>&)
+     operator==(const istreambuf_iterator<_CharT, _Traits>& __a,
+     ^~~~~~~~
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\streambuf_iterator.h:204:5: note:   template argument deduction/substitution failed:
+..\src\Tasks_1_OAuP.cpp:128:20: note:   mismatched types 'const std::istreambuf_iterator<_CharT, _Traits>' and '__gnu_cxx::__alloc_traits<std::allocator<char> >::value_type {aka char}'
+    if ((s.at(i) == a) == True) {
+                    ^
+In file included from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\c++allocator.h:33:0,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\allocator.h:46,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\string:41,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\locale_classes.h:40,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\ios_base.h:41,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\ios:42,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\ostream:38,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\iostream:39,
+                 from ..\src\Tasks_1_OAuP.cpp:112:
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\ext\new_allocator.h:139:5: note: candidate: template<class _Tp> bool __gnu_cxx::operator==(const __gnu_cxx::new_allocator<_Tp>&, const __gnu_cxx::new_allocator<_Tp>&)
+     operator==(const new_allocator<_Tp>&, const new_allocator<_Tp>&)
+     ^~~~~~~~
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\ext\new_allocator.h:139:5: note:   template argument deduction/substitution failed:
+..\src\Tasks_1_OAuP.cpp:128:20: note:   mismatched types 'const __gnu_cxx::new_allocator<_Tp>' and '__gnu_cxx::__alloc_traits<std::allocator<char> >::value_type {aka char}'
+    if ((s.at(i) == a) == True) {
+                    ^
+In file included from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_algobase.h:67:0,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\char_traits.h:39,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\ios:40,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\ostream:38,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\iostream:39,
+                 from ..\src\Tasks_1_OAuP.cpp:112:
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_iterator.h:863:5: note: candidate: template<class _Iterator, class _Container> bool __gnu_cxx::operator==(const __gnu_cxx::__normal_iterator<_Iterator, _Container>&, const __gnu_cxx::__normal_iterator<_Iterator, _Container>&)
+     operator==(const __normal_iterator<_Iterator, _Container>& __lhs,
+     ^~~~~~~~
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_iterator.h:863:5: note:   template argument deduction/substitution failed:
+..\src\Tasks_1_OAuP.cpp:128:20: note:   mismatched types 'const __gnu_cxx::__normal_iterator<_Iterator, _Container>' and '__gnu_cxx::__alloc_traits<std::allocator<char> >::value_type {aka char}'
+    if ((s.at(i) == a) == True) {
+                    ^
+In file included from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_algobase.h:67:0,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\char_traits.h:39,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\ios:40,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\ostream:38,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\iostream:39,
+                 from ..\src\Tasks_1_OAuP.cpp:112:
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_iterator.h:856:5: note: candidate: template<class _IteratorL, class _IteratorR, class _Container> bool __gnu_cxx::operator==(const __gnu_cxx::__normal_iterator<_IteratorL, _Container>&, const __gnu_cxx::__normal_iterator<_IteratorR, _Container>&)
+     operator==(const __normal_iterator<_IteratorL, _Container>& __lhs,
+     ^~~~~~~~
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_iterator.h:856:5: note:   template argument deduction/substitution failed:
+..\src\Tasks_1_OAuP.cpp:128:20: note:   mismatched types 'const __gnu_cxx::__normal_iterator<_IteratorL, _Container>' and '__gnu_cxx::__alloc_traits<std::allocator<char> >::value_type {aka char}'
+    if ((s.at(i) == a) == True) {
+                    ^
+..\src\Tasks_1_OAuP.cpp:128:26: error: 'True' was not declared in this scope
+    if ((s.at(i) == a) == True) {
+                          ^~~~
+20:10:01 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Tasks_1_OAuP.o" "..\\src\\Tasks_1_OAuP.cpp" 
+g++ -o "First Project.exe" "src\\Laboratory_work_1_Infa.o" "src\\Laboratory_work_1_OAuP.o" "src\\Tasks_1_OAuP.o" 
+08:51:39 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Tasks_1_OAuP.o" "..\\src\\Tasks_1_OAuP.cpp" 
+g++ -o "First Project.exe" "src\\Laboratory_work_1_Infa.o" "src\\Laboratory_work_1_OAuP.o" "src\\Tasks_1_OAuP.o" 
+08:52:14 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Tasks_1_OAuP.o" "..\\src\\Tasks_1_OAuP.cpp" 
+g++ -o "First Project.exe" "src\\Laboratory_work_1_Infa.o" "src\\Laboratory_work_1_OAuP.o" "src\\Tasks_1_OAuP.o" 
+08:52:40 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Tasks_1_OAuP.o" "..\\src\\Tasks_1_OAuP.cpp" 
+g++ -o "First Project.exe" "src\\Laboratory_work_1_Infa.o" "src\\Laboratory_work_1_OAuP.o" "src\\Tasks_1_OAuP.o" 
+08:56:21 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Tasks_1_OAuP.o" "..\\src\\Tasks_1_OAuP.cpp" 
+..\src\Tasks_1_OAuP.cpp: In function 'int main()':
+..\src\Tasks_1_OAuP.cpp:126:4: error: expected ';' before '}' token
+    }
+    ^
+08:56:39 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Tasks_1_OAuP.o" "..\\src\\Tasks_1_OAuP.cpp" 
+g++ -o "First Project.exe" "src\\Laboratory_work_1_Infa.o" "src\\Laboratory_work_1_OAuP.o" "src\\Tasks_1_OAuP.o" 
+08:59:14 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Tasks_1_OAuP.o" "..\\src\\Tasks_1_OAuP.cpp" 
+..\src\Tasks_1_OAuP.cpp: In function 'int main()':
+..\src\Tasks_1_OAuP.cpp:125:4: error: expected ';' before 'break'
+    break;
+    ^~~~~
+08:59:20 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Tasks_1_OAuP.o" "..\\src\\Tasks_1_OAuP.cpp" 
+g++ -o "First Project.exe" "src\\Laboratory_work_1_Infa.o" "src\\Laboratory_work_1_OAuP.o" "src\\Tasks_1_OAuP.o" 
+08:59:47 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Tasks_1_OAuP.o" "..\\src\\Tasks_1_OAuP.cpp" 
+g++ -o "First Project.exe" "src\\Laboratory_work_1_Infa.o" "src\\Laboratory_work_1_OAuP.o" "src\\Tasks_1_OAuP.o" 
+09:10:31 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Tasks_1_OAuP.o" "..\\src\\Tasks_1_OAuP.cpp" 
+g++ -o "First Project.exe" "src\\Laboratory_work_1_Infa.o" "src\\Laboratory_work_1_OAuP.o" "src\\Tasks_1_OAuP.o" 
+09:12:26 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Tasks_1_OAuP.o" "..\\src\\Tasks_1_OAuP.cpp" 
+g++ -o "First Project.exe" "src\\Laboratory_work_1_Infa.o" "src\\Laboratory_work_1_OAuP.o" "src\\Tasks_1_OAuP.o" 
+09:14:12 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Tasks_1_OAuP.o" "..\\src\\Tasks_1_OAuP.cpp" 
+g++ -o "First Project.exe" "src\\Laboratory_work_1_Infa.o" "src\\Laboratory_work_1_OAuP.o" "src\\Tasks_1_OAuP.o" 
+Info: Nothing to build for First Project
+Info: Nothing to build for First Project
+09:21:14 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Tasks_1_OAuP.o" "..\\src\\Tasks_1_OAuP.cpp" 
+..\src\Tasks_1_OAuP.cpp: In function 'int main()':
+..\src\Tasks_1_OAuP.cpp:175:8: error: no match for 'operator>>' (operand types are 'std::ostream {aka std::basic_ostream<char>}' and 'const char [11]')
+   cout >> "Отриц";
+   ~~~~~^~~~~~~~~~~~~~~
+In file included from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\string:53:0,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\locale_classes.h:40,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\ios_base.h:41,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\ios:42,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\ostream:38,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\iostream:39,
+                 from ..\src\Tasks_1_OAuP.cpp:162:
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\basic_string.tcc:1437:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)
+     operator>>(basic_istream<_CharT, _Traits>& __in,
+     ^~~~~~~~
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\basic_string.tcc:1437:5: note:   template argument deduction/substitution failed:
+..\src\Tasks_1_OAuP.cpp:175:11: note:   'std::ostream {aka std::basic_ostream<char>}' is not derived from 'std::basic_istream<_CharT, _Traits>'
+   cout >> "Отриц";
+           ^~~~~~~~~~~~
+In file included from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\istream:934:0,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\iostream:40,
+                 from ..\src\Tasks_1_OAuP.cpp:162:
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\istream.tcc:955:5: note: candidate: template<class _CharT2, class _Traits2> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, _CharT2*)
+     operator>>(basic_istream<_CharT, _Traits>& __in, _CharT* __s)
+     ^~~~~~~~
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\istream.tcc:955:5: note:   template argument deduction/substitution failed:
+..\src\Tasks_1_OAuP.cpp:175:11: note:   'std::ostream {aka std::basic_ostream<char>}' is not derived from 'std::basic_istream<_CharT, _Traits>'
+   cout >> "Отриц";
+           ^~~~~~~~~~~~
+In file included from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\istream:934:0,
+                 from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\iostream:40,
+                 from ..\src\Tasks_1_OAuP.cpp:162:
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\istream.tcc:923:5: note: candidate: template<class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, _CharT&)
+     operator>>(basic_istream<_CharT, _Traits>& __in, _CharT& __c)
+     ^~~~~~~~
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\bits\istream.tcc:923:5: note:   template argument deduction/substitution failed:
+..\src\Tasks_1_OAuP.cpp:175:11: note:   'std::ostream {aka std::basic_ostream<char>}' is not derived from 'std::basic_istream<_CharT, _Traits>'
+   cout >> "Отриц";
+           ^~~~~~~~~~~~
+In file included from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\iostream:40:0,
+                 from ..\src\Tasks_1_OAuP.cpp:162:
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\istream:756:5: note: candidate: template<class _Traits> std::basic_istream<char, _Traits>& std::operator>>(std::basic_istream<char, _Traits>&, unsigned char&)
+     operator>>(basic_istream<char, _Traits>& __in, unsigned char& __c)
+     ^~~~~~~~
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\istream:756:5: note:   template argument deduction/substitution failed:
+..\src\Tasks_1_OAuP.cpp:175:11: note:   'std::ostream {aka std::basic_ostream<char>}' is not derived from 'std::basic_istream<char, _Traits>'
+   cout >> "Отриц";
+           ^~~~~~~~~~~~
+In file included from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\iostream:40:0,
+                 from ..\src\Tasks_1_OAuP.cpp:162:
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\istream:761:5: note: candidate: template<class _Traits> std::basic_istream<char, _Traits>& std::operator>>(std::basic_istream<char, _Traits>&, signed char&)
+     operator>>(basic_istream<char, _Traits>& __in, signed char& __c)
+     ^~~~~~~~
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\istream:761:5: note:   template argument deduction/substitution failed:
+..\src\Tasks_1_OAuP.cpp:175:11: note:   'std::ostream {aka std::basic_ostream<char>}' is not derived from 'std::basic_istream<char, _Traits>'
+   cout >> "Отриц";
+           ^~~~~~~~~~~~
+In file included from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\iostream:40:0,
+                 from ..\src\Tasks_1_OAuP.cpp:162:
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\istream:803:5: note: candidate: template<class _Traits> std::basic_istream<char, _Traits>& std::operator>>(std::basic_istream<char, _Traits>&, unsigned char*)
+     operator>>(basic_istream<char, _Traits>& __in, unsigned char* __s)
+     ^~~~~~~~
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\istream:803:5: note:   template argument deduction/substitution failed:
+..\src\Tasks_1_OAuP.cpp:175:11: note:   'std::ostream {aka std::basic_ostream<char>}' is not derived from 'std::basic_istream<char, _Traits>'
+   cout >> "Отриц";
+           ^~~~~~~~~~~~
+In file included from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\iostream:40:0,
+                 from ..\src\Tasks_1_OAuP.cpp:162:
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\istream:808:5: note: candidate: template<class _Traits> std::basic_istream<char, _Traits>& std::operator>>(std::basic_istream<char, _Traits>&, signed char*)
+     operator>>(basic_istream<char, _Traits>& __in, signed char* __s)
+     ^~~~~~~~
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\istream:808:5: note:   template argument deduction/substitution failed:
+..\src\Tasks_1_OAuP.cpp:175:11: note:   'std::ostream {aka std::basic_ostream<char>}' is not derived from 'std::basic_istream<char, _Traits>'
+   cout >> "Отриц";
+           ^~~~~~~~~~~~
+In file included from c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\iostream:40:0,
+                 from ..\src\Tasks_1_OAuP.cpp:162:
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\istream:924:5: note: candidate: template<class _CharT, class _Traits, class _Tp> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&&, _Tp&)
+     operator>>(basic_istream<_CharT, _Traits>&& __is, _Tp& __x)
+     ^~~~~~~~
+c:\users\ystas\progf\lib\gcc\mingw32\6.3.0\include\c++\istream:924:5: note:   template argument deduction/substitution failed:
+..\src\Tasks_1_OAuP.cpp:175:11: note:   'std::ostream {aka std::basic_ostream<char>}' is not derived from 'std::basic_istream<_CharT, _Traits>'
+   cout >> "Отриц";
+           ^~~~~~~~~~~~
+09:21:57 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Tasks_1_OAuP.o" "..\\src\\Tasks_1_OAuP.cpp" 
+g++ -o "First Project.exe" "src\\Laboratory_work_1_Infa.o" "src\\Laboratory_work_1_OAuP.o" "src\\Tasks_1_OAuP.o" 
+Info: Nothing to build for First Project
+Info: Nothing to build for First Project
+09:31:21 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Tasks_1_OAuP.o" "..\\src\\Tasks_1_OAuP.cpp" 
+..\src\Tasks_1_OAuP.cpp: In function 'int main()':
+..\src\Tasks_1_OAuP.cpp:185:13: error: conversion from 'int' to non-scalar type 'std::__cxx11::string {aka std::__cxx11::basic_string<char>}' requested
+  string a = 32;
+             ^~
+09:33:06 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Tasks_1_OAuP.o" "..\\src\\Tasks_1_OAuP.cpp" 
+..\src\Tasks_1_OAuP.cpp: In function 'int main()':
+..\src\Tasks_1_OAuP.cpp:185:11: error: invalid conversion from 'const char*' to 'char' [-fpermissive]
+  char a = " ";
+           ^~~
+09:37:22 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Tasks_1_OAuP.o" "..\\src\\Tasks_1_OAuP.cpp" 
+g++ -o "First Project.exe" "src\\Laboratory_work_1_Infa.o" "src\\Laboratory_work_1_OAuP.o" "src\\Tasks_1_OAuP.o" 
+09:38:23 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Tasks_1_OAuP.o" "..\\src\\Tasks_1_OAuP.cpp" 
+..\src\Tasks_1_OAuP.cpp: In function 'int main()':
+..\src\Tasks_1_OAuP.cpp:185:11: error: invalid conversion from 'const char*' to 'char' [-fpermissive]
+  char a = " ";
+           ^~~
+09:38:56 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Tasks_1_OAuP.o" "..\\src\\Tasks_1_OAuP.cpp" 
+..\src\Tasks_1_OAuP.cpp: In function 'int main()':
+..\src\Tasks_1_OAuP.cpp:185:17: error: invalid conversion from 'const char*' to 'char' [-fpermissive]
+  const char a = " ";
+                 ^~~
+09:41:19 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Tasks_1_OAuP.o" "..\\src\\Tasks_1_OAuP.cpp" 
+g++ -o "First Project.exe" "src\\Laboratory_work_1_Infa.o" "src\\Laboratory_work_1_OAuP.o" "src\\Tasks_1_OAuP.o" 
+09:44:14 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Tasks_1_OAuP.o" "..\\src\\Tasks_1_OAuP.cpp" 
+g++ -o "First Project.exe" "src\\Laboratory_work_1_Infa.o" "src\\Laboratory_work_1_OAuP.o" "src\\Tasks_1_OAuP.o" 
+09:44:44 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Tasks_1_OAuP.o" "..\\src\\Tasks_1_OAuP.cpp" 
+g++ -o "First Project.exe" "src\\Laboratory_work_1_Infa.o" "src\\Laboratory_work_1_OAuP.o" "src\\Tasks_1_OAuP.o" 
+09:46:13 **** Incremental Build of configuration Debug for project First Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Tasks_1_OAuP.o" "..\\src\\Tasks_1_OAuP.cpp" 
+g++ -o "First Project.exe" "src\\Laboratory_work_1_Infa.o" "src\\Laboratory_work_1_OAuP.o" "src\\Tasks_1_OAuP.o" 

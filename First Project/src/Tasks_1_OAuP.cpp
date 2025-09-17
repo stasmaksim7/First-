@@ -108,19 +108,86 @@
 //	return 0;
 //}
 
-// Задание 8 - НЕДОДЕЛАНО
+// Задание 8
 //#include <iostream>
+//#include <string>
 //using namespace std;
 //int main() {
-//	int k = 0;
 //	int flag = 1;
-//	while (flag == 1) {
-//		int a;
-//		cout << "Введите число:" << endl;
+//	int k = 0;
+//	string Ls[] = {"e","y","u","i","o","a","E","Y","U","I","O","A"};
+//	while (flag != 0) {
+//		string a;
+//		cout << "Введите букву:"<< endl;
 //		cin >> a;
+//		if (a == "0"){
+//			flag = 0;
+//			break;
+//		}
+//
+//		for (int i = 0; i < 12; i++) {
+//			if (Ls[i] == a) {
+//				k += 1;
+//			}
+//		}
+//	}
+//	cout << "Кол-во гл:" << k << endl;
 //	return 0;
 //}
 
+// Задание 9
+//#include <iostream>
+//using namespace std;
+//int main() {
+//	int n;
+//	cout << "Введите кол-во элементов:";
+//	cin >> n;
+//	int S = 0;
+//	for (int i = 1; i < (n+1); i++) {
+//		if ((i % 2 == 0) && (i % 5 == 0)) {
+//			S += i;
+//		}
+//		else if (i % 2 == 0){
+//			S += i;
+//		}
+//		else if (i % 5 == 0){
+//			S += i;
+//		}
+//	}
+//	cout << "Сумма всех элементов:" << S;
+//	return 0;
+//}
+
+// Задание 10
+//#include <iostream>
+//using namespace std;
+//int main(){
+//	int a;
+//	cout << "Введите число:";
+//	cin >> a;
+//	if (a == 0) {
+//		cout << "Равно нулю";
+//	}
+//	else if (a > 0){
+//		cout << "Полож";
+//	}
+//	else if (a < 0){
+//		cout << "Отриц";
+//	}
+//	return 0;
+//}
+
+// Задание 11
+//#include <iostream>
+//using namespace std;
+//int main() {
+//	int k = 32;
+//	for (char i = ' '; i <= '~';i++) {
+//		cout << k << "-й элемент: "<< i << endl;
+//		k++;
+//	}
+//	return 0;
+//}
 
 
 
